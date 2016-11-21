@@ -13,6 +13,7 @@
 |Rumen Tsanov |__RumenTsanov__	        |
 |Boncho Belutov |__composer2__ |	
 |Niya Keranova|__Nayata__       	|	
+|Atanas Papucharov|__Absend__       	|	
 
 ##<a href="https://github.com/UX-Design-and-PS/Hard-work-unaited/blob/master/Course-project-assignment.md">Project Requirements</a>  
 
