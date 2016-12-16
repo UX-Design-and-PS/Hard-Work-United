@@ -72,7 +72,7 @@ nav {
 header {
     background-image: url("cosmos.jpg");
     background-size: 100%, auto, contain;
-    min-height: 360px;
+    min-height: 420px;
 }
 
 #apply-btn {
@@ -81,14 +81,16 @@ header {
     border: 1px solid #D94819;
     background-color: #D94819;
     color: white;
-    min-width: 200px;
-    min-height: 35px;
+    min-width: 270px;
+    min-height: 45px;
     margin-top: 50px;
+    font-size: 18px
 }
 
-.info-text {
+div.info-text {
     color: white;
     text-align: center;
+    font-size: 18px
 }
 
 main {
@@ -107,18 +109,18 @@ main {
 fieldset {
     border: 2px solid grey;
     border-radius: 5px;
-    min-height: 200px;
+    min-height: 180px;
     text-align: center;
 }
 
 legend {
     text-decoration: none;
     border: 0;
-    padding-top: 3%;
+    padding-top: 1%;
 }
 
-dl.legent-info {
-    padding-bottom: 20px;
+dl.legend-info{
+    margin-top: -7%;
 }
 
 dd.legend-info {
@@ -129,17 +131,20 @@ dd.legend-info {
 
 #front-end {
     color: #3EC144;
-    max-width: 130px
+    max-width: 130px;
+    font-weight: bold;
 }
 
 #web {
     color: #3E9EFF;
-    max-width: 60px
+    max-width: 60px;
+    font-weight: bold;
 }
 
 #mobile {
     color: #D94819;
-    max-width: 90px
+    max-width: 90px;
+    font-weight: bold;
 }
 
 #front-end-btn {
