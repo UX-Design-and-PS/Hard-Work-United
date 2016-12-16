@@ -8,8 +8,30 @@ body {
     margin: 0 auto;
 }
 
-nav {
-    background-color: #1B2634;
+nav.navbar-inv{
+    position: absolute;
+    top: 0;
+    opacity: 0.9;
+    background-color: #283A51;
+    margin-left: -15px;
+    min-width: 80%;
+    max-width: 80%;
+    max-height: 70px;
+    padding-left: 5%
+}
+
+div ul li a {
+    color: white;
+}
+
+div.search-btn{
+    background-color: #283A51;
+    color: white;
+}
+
+a.search:hover{
+    background-color: whitesmoke;
+    color: #283A51;
 }
 
 .mega-dropdown {
