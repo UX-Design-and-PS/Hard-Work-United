@@ -1,0 +1,211 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body {
+    font-family: 'Open Sans', 'sans-serif';
+    background-color: lightgray;
+    background-size: contain;
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #1B2634;
+}
+
+.mega-dropdown {
+    position: static !important;
+}
+
+.mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.mega-dropdown-menu>li>ul {
+    padding: 0;
+    margin: 0;
+}
+
+.mega-dropdown-menu>li>ul>li {
+    list-style: none;
+}
+
+.mega-dropdown-menu>li>ul>li>a {
+    display: block;
+    color: darkblue;
+    padding: 3px 5px;
+}
+
+.mega-dropdown-menu>li ul>li>a:hover, .mega-dropdown-menu>li ul>li>a:focus {
+    text-decoration: none;
+    color: darkslateblue;
+}
+
+.mega-dropdown-menu .dropdown-header {
+    font-size: 18px;
+    color: black;
+    padding: 5px 60px 5px 5px;
+    line-height: 30px;
+}
+
+.dropdown-menu {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.container {
+    opacity: 0.9;
+    width: 100%;
+}
+
+
+/*=========================================*/
+
+
+/*  Landing Page  */
+
+
+/*=========================================*/
+
+header {
+    background-image: url("cosmos.jpg");
+    background-size: 100%, auto, contain;
+    min-height: 420px;
+}
+
+#apply-btn {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #D94819;
+    background-color: #D94819;
+    color: white;
+    min-width: 270px;
+    min-height: 45px;
+    margin-top: 50px;
+    font-size: 18px
+}
+
+div.info-text {
+    color: white;
+    text-align: center;
+    font-size: 18px
+}
+
+main {
+    background-color: white;
+    min-height: 150px;
+    max-width: 100%;
+}
+
+.fieldset-container {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+fieldset {
+    border: 2px solid grey;
+    border-radius: 5px;
+    min-height: 180px;
+    text-align: center;
+}
+
+legend {
+    text-decoration: none;
+    border: 0;
+    padding-top: 1%;
+}
+
+dl.legend-info{
+    margin-top: -7%;
+}
+
+dd.legend-info {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 1%;
+}
+
+#front-end {
+    color: #3EC144;
+    max-width: 130px;
+    font-weight: bold;
+}
+
+#web {
+    color: #3E9EFF;
+    max-width: 60px;
+    font-weight: bold;
+}
+
+#mobile {
+    color: #D94819;
+    max-width: 90px;
+    font-weight: bold;
+}
+
+#front-end-btn {
+    background-color: #3EC144;
+    border: 1px solid #3EC144;
+    color: white;
+}
+
+#web-btn {
+    background-color: #3E9EFF;
+    border: 1px solid #3E9EFF;
+    color: white;
+}
+
+#mobile-btn {
+    background-color: #D94819;
+    border: 1px solid #D94819;
+    color: white;
+}
+
+nav.row.nav-bottom {
+    color: white;
+    background-color: #283A51;
+    min-height: 100px;
+    max-width: 100%;
+    padding-left: 10%;
+    padding-top: 2%;
+}
+
+footer {
+    background-color: #1B2634;
+    color: white;
+    text-align: center;
+    min-height: 30px;
+    max-width: 100%;
+}
+
+.footer-link {
+    display: inline-block;
+}
+
+.a-nav-bottom {
+    color: white;
+    font-size: 12px;
+}
+
+.a-nav-bottom:hover {
+    text-decoration: none;
+    color: lightsteelblue
+}
+
+.ul-footer {
+    padding-top: 1%;
+}
+
+.a-nav-bottom-footer {
+    padding-right: 15px;
+}
+
+@media screen and (max-width: 550px) {
+    body {
+        color: pink
+    }
+}
