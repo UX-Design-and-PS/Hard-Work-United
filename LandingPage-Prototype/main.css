@@ -8,7 +8,15 @@ body {
     margin: 0 auto;
 }
 
-nav.navbar-inv{
+h2.name-main {
+    font-size: 36px;
+}
+
+h5.moto-main {
+    font-size: 16px;
+}
+
+nav.navbar-inv {
     position: absolute;
     top: 0;
     opacity: 0.9;
@@ -24,12 +32,12 @@ div ul li a {
     color: white;
 }
 
-div.search-btn{
+div.search-btn {
     background-color: #283A51;
     color: white;
 }
 
-a.search:hover{
+a.search:hover {
     background-color: whitesmoke;
     color: #283A51;
 }
@@ -141,7 +149,7 @@ legend {
     padding-top: 1%;
 }
 
-dl.legend-info{
+dl.legend-info {
     margin-top: -7%;
 }
 
@@ -226,8 +234,124 @@ footer {
     padding-right: 15px;
 }
 
-@media screen and (max-width: 550px) {
+
+/*=========================================*/
+
+
+/* Media queries */
+
+
+/*=========================================*/
+
+@media screen and (max-width:1183px) {
+    nav.navbar-inv {
+        max-height: 120px;
+    }
+    #language-nav {
+        margin-left: 605px
+    }
+}
+
+@media screen and (max-width:1124px) {
+    #language-nav {
+        margin-top: -50px;
+        margin-left: 720px
+    }
+    #search-nav {
+        margin-left: 605px
+    }
+}
+
+@media screen and (max-width:1064px) {
+    #language-nav {
+        margin-top: -50px;
+        margin-left: 600px
+    }
+    #search-nav {
+        margin-top: -50px;
+        margin-left: 490px
+    }
     body {
-        color: pink
+        background-size: unset;
+    }
+}
+
+@media screen and (max-width:1059px) {
+    header {
+        background-size: 130% 130%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width:991px) {
+    dl.legend-info {
+        margin-top: -1%;
+    }
+    .right-move {
+        position: absolute;
+        top: 190%;
+        left: 50%;
+    }
+    .right-move-down {
+        position: absolute;
+        top: 218%;
+        left: 50%;
+    }
+    nav.row.nav-bottom {
+        min-height: 370px;
+        max-width: 100%;
+    }
+    header {
+        background-size: 125% 125%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width:907px) {
+    #language-nav {
+        margin-top: -50px;
+        margin-left: 510px
+    }
+    #search-nav {
+        margin-top: -50px;
+        margin-left: 400px
+    }
+    header {
+        background-size: 120% 120%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width:790px) {
+    #search-nav {
+        margin-top: -50px;
+        margin-left: 460px
+    }
+    header {
+        background-size: 115% 115%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .right-move {
+        position: inherit;
+    }
+    .right-move-down {
+        position: inherit;
+    }
+    header {
+        background-size: 110% 110%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width:387px) {
+    button#apply-btn {
+        min-width: 200px;
+    }
+    header {
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
     }
 }
