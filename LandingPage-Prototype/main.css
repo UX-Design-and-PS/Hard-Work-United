@@ -8,7 +8,7 @@ body {
     margin: 0 auto;
 }
 
-nav.navbar-inv{
+nav.navbar-inv {
     position: absolute;
     top: 0;
     opacity: 0.9;
@@ -24,12 +24,12 @@ div ul li a {
     color: white;
 }
 
-div.search-btn{
+div.search-btn {
     background-color: #283A51;
     color: white;
 }
 
-a.search:hover{
+a.search:hover {
     background-color: whitesmoke;
     color: #283A51;
 }
@@ -141,7 +141,7 @@ legend {
     padding-top: 1%;
 }
 
-dl.legend-info{
+dl.legend-info {
     margin-top: -7%;
 }
 
@@ -226,7 +226,57 @@ footer {
     padding-right: 15px;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width:1183px) {
+    nav.navbar-inv {
+        max-height: 120px;
+    }
+    #language-nav {
+        margin-left: 605px
+    }
+}
+
+@media screen and (max-width:1124px) {
+    #language-nav {
+        margin-top: -50px;
+        margin-left: 720px
+    }
+    #search-nav {
+        margin-left: 605px
+    }
+}
+
+@media screen and (max-width:1064px) {
+    #language-nav {
+        margin-top: -50px;
+        margin-left: 600px
+    }
+    #search-nav {
+        margin-top: -50px;
+        margin-left: 490px
+    }
+    body {
+        background-size: unset;
+    }
+}
+
+@media screen and (max-width:991px) {
+    dl.legend-info {
+        margin-top: -1%;
+    }
+}
+
+@media screen and (max-width:907px) {
+    #language-nav {
+        margin-top: -50px;
+        margin-left: 510px
+    }
+    #search-nav {
+        margin-top: -50px;
+        margin-left: 400px
+    }
+}
+
+@media screen and (max-width:785px) {
     body {
         color: pink
     }
