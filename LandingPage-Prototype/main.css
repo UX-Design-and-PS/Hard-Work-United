@@ -8,6 +8,14 @@ body {
     margin: 0 auto;
 }
 
+h2.name-main {
+    font-size: 36px;
+}
+
+h5.moto-main {
+    font-size: 16px;
+}
+
 nav.navbar-inv {
     position: absolute;
     top: 0;
@@ -276,8 +284,15 @@ footer {
     }
 }
 
-@media screen and (max-width:785px) {
-    body {
-        color: pink
+@media screen and (max-width:790px) {
+    #search-nav {
+        margin-top: -50px;
+        margin-left: 460px
+    }
+}
+
+@media screen and (max-width:387px) {
+    button#apply-btn{
+        min-width: 200px;
     }
 }
