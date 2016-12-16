@@ -1,6 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 body {
     font-family: 'Open Sans', 'sans-serif';
+    margin: 0;
+    padding: 0;
+    background-image: url('cosmos_background.jpg');
+}
+
+.container {
+    margin: 0;
+    padding: 0;
 }
 
 .mega-dropdown {
@@ -32,7 +40,7 @@ body {
 .mega-dropdown-menu>li ul>li>a:hover,
 .mega-dropdown-menu>li ul>li>a:focus {
     text-decoration: none;
-    color: darkslateblue;
+    color: orangered;
 }
 
 .mega-dropdown-menu .dropdown-header {
@@ -47,7 +55,27 @@ body {
     -webkit-box-shadow: none;
 }
 
+.dropdown-menu>li>a {
+    color: darkblue;
+    font-weight: bold;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+    text-decoration: none;
+    color: orangered;
+}
+
 .container {
-    opacity: 0.9;
+    opacity: 0.8;
     width: 100%;
+}
+
+.navbar-nav>.dropdown>a {
+    border-right: 1px solid black;
+    color: white;
+}
+
+.navbar-nav>li>a {
+    border-right: 1px solid black;
 }
