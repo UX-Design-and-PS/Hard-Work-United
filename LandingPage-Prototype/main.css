@@ -8,6 +8,10 @@ body {
     margin: 0 auto;
 }
 
+nav {
+    background-color: #1B2634;
+}
+
 .mega-dropdown {
     position: static !important;
 }
@@ -78,7 +82,7 @@ header {
     background-color: #D94819;
     color: white;
     min-width: 200px;
-    min-height: 30px;
+    min-height: 35px;
     margin-top: 50px;
 }
 
@@ -97,31 +101,45 @@ main {
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 3%;
 }
 
 fieldset {
     border: 2px solid grey;
-    border-radius: 5px; 
+    border-radius: 5px;
     min-height: 200px;
-    padding: 20%;
     text-align: center;
 }
 
 legend {
     text-decoration: none;
+    border: 0;
+    padding-top: 3%;
+}
+
+dl.legent-info {
+    padding-bottom: 20px;
+}
+
+dd.legend-info {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 1%;
 }
 
 #front-end {
-    color: #3EC144
+    color: #3EC144;
+    max-width: 130px
 }
 
 #web {
-    color: #3E9EFF
+    color: #3E9EFF;
+    max-width: 60px
 }
 
 #mobile {
-    color: #D94819
+    color: #D94819;
+    max-width: 90px
 }
 
 #front-end-btn {
@@ -179,4 +197,10 @@ footer {
 
 .a-nav-bottom-footer {
     padding-right: 15px;
+}
+
+@media screen and (max-width: 550px) {
+    body {
+        color: pink
+    }
 }
