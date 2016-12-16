@@ -68,6 +68,7 @@ body {
     opacity: 0.8;
     width: 100%;
 }
+
 .navbar-nav {
     padding-left: 20%;
 }
@@ -91,4 +92,8 @@ body {
 .input-group {
     width: 300px;
     margin: 10px;
+}
+
+.navbar-nav>.dropdown>:first-child {
+    margin-top: 1px;
 }
