@@ -12,5 +12,5 @@
 ####6. In threads forum page more bigger button for creating a new thread which is one of the prime things in a forum page.
 ####7. In threads forum page more information about the roles of the participants student or teacher
 ####8. Friendlier to non-native speakers 
-####9. Подобрена форумна навигация(къде се намираш и в каква дълбочина)
-####10. Нова функционалност - бутон следени теми само при логнати потребители 
+####9. Better forum navigation
+####10. New forum functionality -watched threads  
