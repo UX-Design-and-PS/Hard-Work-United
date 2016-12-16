@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Софуерна Академия Телерик</title>
+    <meta charset="UTF-8">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <main class="row">
+        <div class="container">
+            <div class="row" id="forum-threads">
+                <div class="row-sm-4">
+                    <ul class="breadcrumb" id="forum-well-box">
+                        <li><a href="#">Telerik Academy Forum</a></li>
+                        <li><a href="#">C# Programming</a></li>
+                        <li><a href="#"><strong>C# Fundamentals</strong></a></li>
+                    </ul>
+                </div>
+                <h1 id="thread-heading"><strong>C# Fundamentals</strong></h1>
+                <div class="row-sm-4">
+                    <div class="row-sm-4 well well-sm">
+                        <button type="button" class="btn btn-lg btn-default" id="primary-btn">Задай въпрос</button>
+                        <div class="row" id="search-btn-askQ">
+                            <div class="col-sm-12">
+                                <div class="input-group" id="adv-search">
+                                    <input type="text" class="form-control" placeholder="Търси във форума" />
+                                    <div class="input-group-btn">
+                                        <div class="btn-group" role="group">
+                                            <div class="dropdown dropdown-lg">
+                                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><p class="caret"></p></button>
+                                                <div class="dropdown-menu dropdown-menu-right" role="menu" id="form-group-oppacity">
+                                                    <form class="form-horizontal" role="form">
+                                                        <div class="form-group">
+                                                            <label for="filter">Филтрирай по</label>
+                                                            <select class="form-control">
+                                        <option value="0" selected>Всички</option>
+                                        <option value="1">За седмица</option>
+                                        <option value="2">Популярни</option>
+                                        <option value="3">Най-гласувани</option>
+                                        <option value="4">Най-коментирани</option>
+                                    </select>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="contain">Автор</label>
+                                                            <input class="form-control" type="text" />
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="contain">Ключови думи</label>
+                                                            <input class="form-control" type="text" />
+                                                        </div>
+                                                        <button type="submit" class="btn btn-primary"><p class="glyphicon glyphicon-search" aria-hidden="true"></p></button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <button type="button" class="btn btn-primary"><p class="glyphicon glyphicon-search" aria-hidden="true"></p></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="forum-btns-group">
+                        <button type="button" class="btn btn-default">Горещи теми</button>
+                        <button type="button" class="btn btn-default">Следени теми</button>
+                        <button type="button" class="btn btn-default">Класиране</button>
+                        <button type="button" class="btn btn-default">Неотговорени</button>
+                    </div>
+                </div>
+                <hr class="threads-hr-line">
+                <div class="row-sm-4 thread-group">
+                    <div>
+                        <div class="thread-position" id="tread-name-position">
+                            <h3 class="forum-threads-heading"><a href="#">[C#] Задача с присвояване на стойности</a></h3>
+                            <div class="author-position">Отговорен от <a href="#" class="author-name">Composer</a><span class="glyphicon glyphicon-education"
+                                    aria-hidden="true">,12.16.2016г. </span></div>
+                        </div>
+                        <div class="thread-position thread-small-margin" id="answers-position">
+                            <p id="answers-points"><strong>113</strong></p>
+                            <p class="thread-font-size">Отговора</p>
+                        </div>
+                        <div class="thread-position thread-small-margin" id="answers-position">
+                            <p id="answers-points"><strong>300</strong></p>
+                            <p class="thread-font-size">Преглеждания</p>
+                        </div>
+                        <div class="thread-position thread-small-margin" id="post-creator">
+                            <img src="bogdan.jpg" class="img-circle" alt="Cinque Terre" width="30" height="30">
+
+                            <span class="thread-font-size"> Публикувано от </span>
+                            <div id="user-position">
+                                <a href="#">Bogdan</a><span class="glyphicon glyphicon-user" aria-hidden="true">,10.12.2016г. </span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <hr class="threads-hr-line">
+                <div class="row-sm-4 thread-group">
+                    <div>
+                        <div class="thread-position" id="tread-name-position">
+                            <h3 class="forum-threads-heading"><a href="#">[C#] Задача с присвояване на стойности</a></h3>
+                            <div class="author-position">Отговорен от <a href="#" class="author-name">Composer</a><span class="glyphicon glyphicon-education"
+                                    aria-hidden="true">,12.16.2016г. </span></div>
+                        </div>
+                        <div class="thread-position thread-small-margin" id="answers-position">
+                            <p id="answers-points"><strong>113</strong></p>
+                            <p class="thread-font-size">Отговора</p>
+                        </div>
+                        <div class="thread-position thread-small-margin" id="answers-position">
+                            <p id="answers-points"><strong>300</strong></p>
+                            <p class="thread-font-size">Преглеждания</p>
+                        </div>
+                        <div class="thread-position thread-small-margin" id="post-creator">
+                            <img src="bogdan.jpg" class="img-circle" alt="Cinque Terre" width="30" height="30">
+
+                            <span class="thread-font-size"> Публикувано от </span>
+                            <div id="user-position">
+                                <a href="#">Bogdan</a><span class="glyphicon glyphicon-user" aria-hidden="true">,10.12.2016г. </span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <hr class="threads-hr-line">
+                <div class="row-sm-4 thread-group">
+                    <div>
+                        <div class="thread-position" id="tread-name-position">
+                            <h3 class="forum-threads-heading"><a href="#">[C#] Задача с присвояване на стойности</a></h3>
+                            <div class="author-position">Отговорен от <a href="#" class="author-name">Composer</a><span class="glyphicon glyphicon-education"
+                                    aria-hidden="true">,12.16.2016г. </span></div>
+                        </div>
+                        <div class="thread-position thread-small-margin" id="answers-position">
+                            <p id="answers-points"><strong>113</strong></p>
+                            <p class="thread-font-size">Отговора</p>
+                        </div>
+                        <div class="thread-position thread-small-margin" id="answers-position">
+                            <p id="answers-points"><strong>300</strong></p>
+                            <p class="thread-font-size">Преглеждания</p>
+                        </div>
+                        <div class="thread-position thread-small-margin" id="post-creator">
+                            <img src="bogdan.jpg" class="img-circle" alt="Cinque Terre" width="30" height="30">
+
+                            <span class="thread-font-size"> Публикувано от </span>
+                            <div id="user-position">
+                                <a href="#">Bogdan</a><span class="glyphicon glyphicon-user" aria-hidden="true">,10.12.2016г. </span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <hr class="threads-hr-line">
+                <div class="row-sm-4 thread-group">
+                    <div>
+                        <div class="thread-position" id="tread-name-position">
+                            <h3 class="forum-threads-heading"><a href="#">[C#] Задача с присвояване на стойности</a></h3>
+                            <div class="author-position">Отговорен от <a href="#" class="author-name">Composer</a><span class="glyphicon glyphicon-education"
+                                    aria-hidden="true">,12.16.2016г. </span></div>
+                        </div>
+                        <div class="thread-position thread-small-margin" id="answers-position">
+                            <p id="answers-points"><strong>113</strong></p>
+                            <p class="thread-font-size">Отговора</p>
+                        </div>
+                        <div class="thread-position thread-small-margin" id="answers-position">
+                            <p id="answers-points"><strong>300</strong></p>
+                            <p class="thread-font-size">Преглеждания</p>
+                        </div>
+                        <div class="thread-position thread-small-margin" id="post-creator">
+                            <img src="bogdan.jpg" class="img-circle" alt="Cinque Terre" width="30" height="30">
+
+                            <span class="thread-font-size"> Публикувано от </span>
+                            <div id="user-position">
+                                <a href="#">Bogdan</a><span class="glyphicon glyphicon-user" aria-hidden="true">,10.12.2016г. </span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <hr class="threads-hr-line">
+
+                <div class="row">
+                    <div class="col-sm-6 col-sm-offset-3">
+                        <ul class="pagination">
+                            <li><a href="#">Previous</a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">6</a></li>
+                            <li><a href="#">7</a></li>
+                            <li><a href="#">8</a></li>
+                            <li><a href="#">9</a></li>
+                            <li><a href="#">10</a></li>
+                            <li><a href="#">Next</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <nav class="row nav-bottom">
+        <div class="col-md-3">
+            <dl>
+                <dt>СОФТУЕРНА АКАДЕМИЯ</dt>
+                <dd><a class="a-nav-bottom" href="#">Сертификати</a></dd>
+                <dd><a class="a-nav-bottom" href="#">Прием</a></dd>
+                <dd><a class="a-nav-bottom" href="#">Кандидатствай</a></dd>
+                <dd><a class="a-nav-bottom" href="#">Приемен изпит</a></dd>
+                <dd><a class="a-nav-bottom" href="#">Често задавани въпроси</a></dd>
+            </dl>
+        </div>
+        <div class="col-md-3">
+            <dl>
+                <dt>КУРСОВЕ</dt>
+                <dd><a class="a-nav-bottom" href="#">Програмиране</a></dd>
+                <dd><a class="a-nav-bottom" href="#">Уеб дизайн и UI технологии</a></dd>
+                <dd><a class="a-nav-bottom" href="#">Личностни и бизнес умения</a></dd>
+                <dd><a class="a-nav-bottom" href="#">Архивни курсове</a></dd>
+                <dd><a class="a-nav-bottom" href="#">Външни курсове</a></dd>
+            </dl>
+        </div>
+        <div class="col-md-3">
+            <dl>
+                <dt>УЧИЛИЩНА АКАДЕМИЯ</dt>
+                <dd><a class="a-nav-bottom" href="#">Сезони</a></dd>
+            </dl>
+            <dl>
+                <dt>СЕМИНАРИ</dt>
+                <dd><a class="a-nav-bottom" href="#">Софтуерно инженерство</a></dd>
+                <dd><a class="a-nav-bottom" href="#">Други</a></dd>
+                <dd><a class="a-nav-bottom" href="#">Състезания</a></dd>
+            </dl>
+        </div>
+        <div class="col-md-3">
+            <dl>
+                <dt>ЗА НАС</dt>
+                <dd><a class="a-nav-bottom" href="#">Новини</a></dd>
+                <dd><a class="a-nav-bottom" href="#">Лицензи</a></dd>
+                <dd><a class="a-nav-bottom" href="#">Галерия</a></dd>
+                <dd><a class="a-nav-bottom" href="#">Форум</a></dd>
+                <dd><a class="a-nav-bottom" href="#">Студентска система</a></dd>
+                <dd><a class="a-nav-bottom" href="#">Контакти</a></dd>
+            </dl>
+        </div>
+    </nav>
+
+    <footer class="row">
+        <ul class="ul-footer">
+            <li class="footer-link"><a class="a-nav-bottom a-nav-bottom-footer" href="#">Академия&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+            <li class="footer-link"><a class="a-nav-bottom a-nav-bottom-footer" href="#">Училищна Академия&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+            <li class="footer-link"><a class="a-nav-bottom a-nav-bottom-footer" href="#">Детска Академия&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+            <li class="footer-link"><a class="a-nav-bottom a-nav-bottom-footer" href="#">Условия за ползване на сайта&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+            <li class="footer-link copyright">Всички права запазени &copy; Telerik Academy</li>
+        </ul>
+    </footer>
+
+    <nav class="navbar-inv">
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+                    <p class="sr-only">Toggle navigation</p>
+                            <p class="icon-bar"></p>
+                            <p class="icon-bar"></p>
+                            <p class="icon-bar"></p>
+                            </button>
+        </div>
+
+        <div class="collapse navbar-collapse js-navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="nav-main-btn">
+                    <a href="#"><img src="./Telerik_Academy_Logo.png" alt="Telerik Academy" width="130px" height="30px" style="margin-top: -10px"></a>
+</li>
+<li class="dropdown"><a href="#" class="dropdown-toggle nav-main-btn" data-toggle="dropdown">АКАДЕМИЯ</a>
+    <ul class="dropdown-menu">
+        <li><a href="#">Кандидатстване за академията</a></li>
+        <li><a href="#">Входен изпит</a></li>
+        <li><a href="#">Специалности</a></li>
+    </ul>
+</li>
+<li class="dropdown mega-dropdown nav-main-btn">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">КУРСОВЕ И ИНИЦИАТИВИ</a>
+    <ul class="dropdown-menu mega-dropdown-menu">
+
+        <li class="col-sm-3">
+            <ul>
+                <li class="dropdown-header">Основи на<br>програмирането</li>
+                <li><a href="#">Основи на C#</a></li>
+                <li><a href="#">C# за напреднали</a></li>
+                <li><a href="#">ООП със C#</a></li>
+                <li><a href="#">Основи на JavaScript</a></li>
+                <li><a href="#">ООП с JavaScript</a></li>
+            </ul>
+        </li>
+
+        <li class="col-sm-3">
+            <ul>
+                <li class="dropdown-header">Уеб Front-end</li>
+                <li><a href="#">Основи на HTML</a></li>
+                <li><a href="#">CSS стилизиране</a></li>
+                <li><a href="#">JavaScript UI и DOM</a></li>
+                <li><a href="#">UX дизайн</a></li>
+                <li><a href="#">Основи на Photoshop</a></li>
+                <li><a href="#">Изграждане на Уеб Front-end</a></li>
+            </ul>
+        </li>
+        <li class="col-sm-3">
+            <ul>
+                <li class="dropdown-header">Програмиране за<br>напреднали</li>
+                <li><a href="#">Компонентно тестване със C#</a></li>
+                <li><a href="#">Качествен програмен код със C#</a></li>
+                <li><a href="#">Структури от данни и алгоритми</a></li>
+                <li><a href="#">Бази от данни и SQL</a></li>
+            </ul>
+        </li>
+        <li class="col-sm-3">
+            <ul>
+                <li class="dropdown-header">Уеб технологи</li>
+                <li><a href="#">Приложения с JavaScript</a></li>
+                <li><a href="#">Уеб услуги и облачни услуги</a></li>
+                <li><a href="#">Уеб приложения с Node.js</a></li>
+                <li><a href="#">SPA приложения с Angular 2</a></li>
+                <li><a href="#">ASP.NET Web Forms</a></li>
+                <li><a href="#">ASP.NET MVC</a></li><br>
+                < </ul>
+        </li>
+        <li class="col-sm-3">
+            <ul>
+
+                <li class="dropdown-header">Мобилни технологи</li>
+                <li><a href="#">Приложения за Windows</a></li>
+                <li><a href="#">Приложения за Android</a></li>
+                <li><a href="#">Приложения за iOS</a></li>
+                <li><a href="#">Разработчик на уеб приложения</a></li>
+                <li><a href="#">Разработчик мобилни приложения</a></li>
+                <li><a href="#">Мулти платформени мобилни приложения с NativeScript</a></li>
+            </ul>
+        </li>
+        <li class="col-sm-3">
+            <ul>
+
+                <li class="dropdown-header">Осигуряране на качеството</li>
+                <li><a href="#">Осигуряране на качеството част 1</a></li>
+                <li><a href="#">Осигуряране на качеството част 2</a></li>
+            </ul>
+        </li>
+        </ul>
+</li>
+<li class="dropdown mega-dropdown nav-main-btn">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">ФОРУМ</p></a>
+    <ul class="dropdown-menu mega-dropdown-menu">
+        <li class="col-sm-3">
+            <ul>
+                <li class="dropdown-header">Начало</li>
+                <li><a href="#"><strong>Софуерна академия</strong></a></li>
+                <li><a href="#"><strong>Важни съобщения</strong></a></li>
+                <li><a href="#"><strong>School academy</strong></a></li>
+                <li><a href="#"><strong>Algo academy(C++)</strong></a></li>
+                <li><a href="#"><strong>Kids academy</strong></a></li>
+                <li><a href="#"><strong>Събития и конкурси</strong></a></li>
+                <li><a href="#"><strong>Външни Курсове</strong></a></li>
+            </ul>
+        </li>
+
+        <li class="col-sm-3">
+            <ul>
+                <li class="dropdown-header">C# Programing</li>
+                <li><a href="#">C# Fundamentals</a></li>
+                <li><a href="#">C# Advanced</a></li>
+                <li><a href="#">C# OOP</a></li>
+                <li><a href="#">Компонентно тестване със C#</a></li>
+                <li><a href="#">Качествен програмен код</a></li>
+                <li><a href="#">Шаблони за дизайн</a></li>
+                <li><a href="#">Структури от данни и алгоритми</a></li>
+            </ul>
+        </li>
+        <li class="col-sm-3">
+            <ul>
+                <li class="dropdown-header">Уеб дизайн<br>и UI технологи</li>
+                <li><a href="#">HTML/CSS</a></li>
+                <li><a href="#">Photoshop & UX дизайн</a></li>
+                <li><a href="#">Slice and dice</a></li>
+                <li><a href="#">JavaScript Fundamentals</a></li>
+                <li><a href="#">JavaScript OOP</a></li>
+                <li><a href="#">JavaScript UI & dom</a></li>
+                <li><a href="#">JavaScript Applications</a></li>
+                <li><a href="#">SPA Applications with Angular 2</a></li>
+            </ul>
+        </li>
+        <li class="col-sm-3">
+            <ul>
+                <li class="dropdown-header">Web Development</li>
+                <li><a href="#">Databases</a></li>
+                <li><a href="#">Web services and cloud</a></li>
+                <li><a href="#">SPA Applications</a></li>
+                <li><a href="#">Applications with Node.js</a></li>
+                <li><a href="#">ASP.NET Web Forms</a></li>
+                <li><a href="#">ASP.NET MVC</a></li>
+            </ul>
+        </li>
+        <li class="col-sm-3">
+            <ul>
+
+                <li class="dropdown-header">Mobile Development</li>
+                <li><a href="#">Hybrid Mobile Apps</a></li>
+                <li><a href="#">Mobile Apps with NativeScript</a></li>
+                <li><a href="#">Android Mobile Apps</a></li>
+                <li><a href="#">iOS Mobile Apps</a></li>
+                <li><a href="#">Windows Mobile Apps</a></li>
+                <li><a href="#">Front-end уеб разработчик</a></li>
+            </ul>
+        </li>
+    </ul>
+</li>
+<li class="nav-main-btn"><a href="#">ПОМОЩ</a></li>
+<li class="nav-main-btn"><a href="#">ПОТРЕБИТЕЛ</a></li>
+<li class="nav-main-btn">
+    <a href="#" class="search">
+        <i class="glyphicon glyphicon-search search-btn"></i>
+    </a>
+</li>
+<li class="nav-main-btn"><a href="">БГ</a></li>
+</ul>
+</div>
+<!-- /.nav-collapse -->
+</nav>
+
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+<script src="main.js"></script>
+</body>
+
+</html>
