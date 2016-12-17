@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 body {
-    font-family: 'Open Sans','Roboto Regular', 'Roboto Light', 'sans-serif';
+    font-family: 'Open Sans', 'Roboto Regular', 'Roboto Light', 'sans-serif';
     background-color: black;
     background-size: contain;
     max-width: 80%;
@@ -22,7 +22,7 @@ nav.navbar-inv {
     position: absolute;
     top: 0;
     opacity: 0.9;
-    background-color: #283A51;
+    background-color: #3D4E62;
     margin-left: -15px;
     min-width: 80%;
     max-width: 80%;
@@ -35,7 +35,7 @@ div ul li a {
 }
 
 div.search-btn {
-    background-color: #283A51;
+    background-color: #3D4E62;
     color: white;
 }
 
@@ -97,10 +97,10 @@ a.search:hover {
     color: orangered;
 }
 
-
-/*.navbar-nav>li>a {
+.navbar-nav>li>a {
+    height: 40px;
     border-right: 1px solid black;
-}*/
+}
 
 .input-group {
     border: 2px solid #253B52;
@@ -173,6 +173,14 @@ fieldset {
     text-align: center;
 }
 
+#fieldset-front-end {
+    margin-left: 10px;
+}
+
+#fieldset-mobile {
+    margin-right: 10px;
+}
+
 legend {
     text-decoration: none;
     border: 0;
@@ -196,7 +204,7 @@ dd.legend-info {
 }
 
 #web {
-    color: #3E9EFF;
+    color: #46A3B5;
     max-width: 60px;
     font-weight: bold;
 }
@@ -214,8 +222,8 @@ dd.legend-info {
 }
 
 #web-btn {
-    background-color: #3E9EFF;
-    border: 1px solid #3E9EFF;
+    background-color: #46A3B5;
+    border: 1px solid #46A3B5;
     color: white;
 }
 
@@ -227,10 +235,10 @@ dd.legend-info {
 
 nav.row.nav-bottom {
     color: white;
-    background-color: #283A51;
+    background-color: #1E4B6A;
     min-height: 100px;
     max-width: 100%;
-    padding-left: 10%;
+    padding-left: 5%;
     padding-top: 2%;
 }
 
@@ -246,7 +254,7 @@ footer {
     display: inline-block;
 }
 
-.a-nav-bottom {
+.a-nav-bottom, li.footer-link.copyright {
     color: white;
     font-size: 12px;
 }
@@ -265,8 +273,7 @@ footer {
     padding-right: 15px;
 }
 
-li.dropdown a.dropdown-toggle.nav-main-btn, 
-li.dropdown.mega-dropdown.nav-main-btn a.dropdown-toggle, #help-nav a, #user-profile-nav a i, #search-nav a, #language-nav a {
+li.dropdown a.dropdown-toggle.nav-main-btn, li.dropdown.mega-dropdown.nav-main-btn a.dropdown-toggle, #help-nav a, #user-profile-nav a i, #search-nav a, #language-nav a {
     color: white;
 }
 
@@ -373,6 +380,14 @@ li.dropdown a.dropdown-toggle.nav-main-btn:hover, li.dropdown.mega-dropdown.nav-
     header {
         background-size: 110% 110%;
         background-repeat: no-repeat;
+    }
+    .js-navbar-collapse {
+        position: absolute;
+        background-color: #283A51;
+        max-width: 100%;
+        min-height: 300px;
+        overflow: hidden;
+        margin-left: -5%;
     }
 }
 
