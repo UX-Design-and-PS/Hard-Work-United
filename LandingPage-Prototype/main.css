@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 body {
-    font-family: 'Roboto', 'sans-serif';
-    background-color: lightsteelblue;
+    font-family: 'Open Sans','Roboto Regular', 'Roboto Light', 'sans-serif';
+    background-color: black;
     background-size: contain;
     max-width: 80%;
     display: block;
@@ -9,11 +9,13 @@ body {
 }
 
 h2.name-main {
-    font-size: 36px;
+    font-size: 38px;
+    text-shadow: 2px 1px #283A51;
 }
 
 h5.moto-main {
-    font-size: 16px;
+    font-size: 17px;
+    text-shadow: 2px 1px #283A51;
 }
 
 nav.navbar-inv {
@@ -102,8 +104,9 @@ a.search:hover {
 
 .input-group {
     border: 2px solid #253B52;
-    width: 230px;
+    width: 245px;
     margin: 10px;
+    background: transparent;
 }
 
 .input-group button {
@@ -254,6 +257,7 @@ footer {
 }
 
 .ul-footer {
+    margin-left: -40px;
     padding-top: 1%;
 }
 
@@ -261,11 +265,12 @@ footer {
     padding-right: 15px;
 }
 
-li.dropdown a.dropdown-toggle.nav-main-btn, li.dropdown.mega-dropdown.nav-main-btn a.dropdown-toggle, #help-nav a, #user-profile-nav a i, #search-nav a, #language-nav a {
+li.dropdown a.dropdown-toggle.nav-main-btn, 
+li.dropdown.mega-dropdown.nav-main-btn a.dropdown-toggle, #help-nav a, #user-profile-nav a i, #search-nav a, #language-nav a {
     color: white;
 }
 
-li.dropdown a.dropdown-toggle.nav-main-btn:hover, li.dropdown.mega-dropdown.nav-main-btn a.dropdown-toggle:hover, #help-nav a:hover, #user-profile-nav a:hover, #language-nav a:hover {
+li.dropdown a.dropdown-toggle.nav-main-btn:hover, li.dropdown.mega-dropdown.nav-main-btn a.dropdown-toggle:hover, #user-profile-nav a i:hover, #search-nav a:hover, #help-nav a:hover, #user-profile-nav a:hover, #language-nav a:hover {
     color: orangered;
 }
 
@@ -273,6 +278,10 @@ li.dropdown a.dropdown-toggle.nav-main-btn:hover, li.dropdown.mega-dropdown.nav-
     position: absolute;
     top: 8px;
     left: 60px;
+    visibility: visible;
+}
+
+#small-size-logo {
     visibility: hidden;
 }
 
@@ -299,7 +308,7 @@ li.dropdown a.dropdown-toggle.nav-main-btn:hover, li.dropdown.mega-dropdown.nav-
         margin-top: -50px;
         margin-left: 645px
     }
-    #search-nav {
+    #user-profile-nav {
         margin-left: 590px
     }
     header {
@@ -337,7 +346,7 @@ li.dropdown a.dropdown-toggle.nav-main-btn:hover, li.dropdown.mega-dropdown.nav-
         margin-top: -50px;
         margin-left: 598px
     }
-    #search-nav {
+    #user-profile-nav {
         margin-left: 310px
     }
 }
@@ -347,11 +356,11 @@ li.dropdown a.dropdown-toggle.nav-main-btn:hover, li.dropdown.mega-dropdown.nav-
         margin-top: -50px;
         margin-left: 510px
     }
-    #search-nav {
+    #user-profile-nav {
         margin-top: -50px;
         margin-left: 432px
     }
-    #user-profile-nav {
+    #search-nav {
         margin-left: 25px
     }
     header {
@@ -361,27 +370,9 @@ li.dropdown a.dropdown-toggle.nav-main-btn:hover, li.dropdown.mega-dropdown.nav-
 }
 
 @media screen and (max-width:790px) {
-    #language-nav {
-        margin-top: -50px;
-        margin-left: 428px
-    }
-    #search-nav {
-        margin-top: -50px;
-        margin-left: 380px
-    }
-    #user-profile-nav {
-        margin-top: -50px;
-        margin-left: 330px
-    }
     header {
         background-size: 110% 110%;
         background-repeat: no-repeat;
-    }
-    #small-size-logo {
-        visibility: visible;
-    }
-    div.navbar-collapse ul li.nav-main-btn {
-        visibility: hidden;
     }
 }
 
@@ -395,14 +386,6 @@ li.dropdown a.dropdown-toggle.nav-main-btn:hover, li.dropdown.mega-dropdown.nav-
     header {
         background-size: 105% 105%;
         background-repeat: no-repeat;
-    }
-    nav.navbar-inverse.navbar-static-top.navbar-inv div.container-fluid div.navbar-collapse ul {
-        min-height: 200px;
-        background-color: #283A51;
-    }
-    ul.nav.navbar-nav li a img {
-        position: absolute;
-        top: -100px;
     }
     #small-size-logo {
         left: 40px;

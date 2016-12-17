@@ -17,4 +17,7 @@ $(document).ready(function () {
             $(this).toggleClass('open');
         }
     );
+    $('.dropdown').on('click', function (event) {
+        event.stopPropagation();
+    });
 });
