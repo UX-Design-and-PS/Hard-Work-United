@@ -104,7 +104,7 @@ a.search:hover {
 
 .navbar-nav>li>a.border-right {
     height: 40px;
-    border-right: 1px solid #3D4E62;;
+    border-right: 0px solid transparent;
 }
 
 .input-group {
@@ -278,17 +278,11 @@ footer {
     padding-right: 15px;
 }
 
-li.dropdown a.dropdown-toggle.nav-main-btn, li.dropdown.mega-dropdown.nav-main-btn a.dropdown-toggle, #help-nav a, #user-profile-nav a img, #search-nav a, #language-nav a {
+li.dropdown a.dropdown-toggle.nav-main-btn, li.dropdown.mega-dropdown.nav-main-btn a.dropdown-toggle, #help-nav a, #user-profile-nav a.search, #search-nav a, #language-nav a {
     color: white;
 }
 
-li.dropdown a.dropdown-toggle.nav-main-btn:hover, 
-li.dropdown.mega-dropdown.nav-main-btn a.dropdown-toggle:hover, 
-#user-profile-nav a:hover, 
-#search-nav a:hover, 
-#help-nav a:hover, 
-#user-profile-nav a img:hover, 
-#language-nav a:hover {
+li.dropdown a.dropdown-toggle.nav-main-btn:hover, li.dropdown.mega-dropdown.nav-main-btn a.dropdown-toggle:hover, #user-profile-nav a.search:hover, #user-profile-nav a:hover, #search-nav a:hover, #help-nav a:hover, #user-profile-nav a img:hover, #language-nav a:hover {
     color: #3D4E62;
     font-weight: bolder;
     background-color: white;
@@ -319,14 +313,14 @@ li.dropdown.mega-dropdown.nav-main-btn a.dropdown-toggle:hover,
         max-height: 120px;
     }
     #language-nav {
-        margin-left: 692px
+        margin-left: 710px
     }
 }
 
 @media screen and (max-width:1060px) {
     #language-nav {
         margin-top: -40px;
-        margin-left: 645px
+        margin-left: 655px
     }
     #user-profile-nav {
         margin-left: 590px
@@ -361,27 +355,17 @@ li.dropdown.mega-dropdown.nav-main-btn a.dropdown-toggle:hover,
     }
 }
 
-@media screen and (max-width:967px) {
+@media screen and (max-width:965px) {
     #language-nav {
         margin-top: -40px;
-        margin-left: 598px
+        margin-left: 600px
     }
     #user-profile-nav {
-        margin-left: 310px
-    }
-}
-
-@media screen and (max-width:930px) {
-    #language-nav {
-        margin-top: -40px;
-        margin-left: 510px
-    }
-    #user-profile-nav {
-        margin-top: -40px;
-        margin-left: 432px
+        margin-top: 0;
+        margin-left: 232px
     }
     #search-nav {
-        margin-left: 25px
+        margin-left: 150px
     }
     header {
         background-size: 115% 115%;
@@ -389,7 +373,18 @@ li.dropdown.mega-dropdown.nav-main-btn a.dropdown-toggle:hover,
     }
 }
 
-@media screen and (max-width:766px) {
+@media screen and (max-width:900px) {
+    #language-nav {
+        margin-top: 0px;
+        margin-left: 128px
+    }
+    #user-profile-nav {
+        margin-top: 0px;
+        margin-left: 70px
+    }
+}
+
+@media screen and (max-width:767px) {
     header {
         background-size: 110% 110%;
         background-repeat: no-repeat;
@@ -403,15 +398,13 @@ li.dropdown.mega-dropdown.nav-main-btn a.dropdown-toggle:hover,
         margin-left: -5%;
     }
     #language-nav {
-        margin-top: -40px;
-        margin-left: 228px
+        margin-left: 0;
     }
     #user-profile-nav {
-        margin-top: -40px;
-        margin-left: 150px
+        margin-left: 0;
     }
     #search-nav {
-        margin-left: 5px
+        margin-left: 0;
     }
 }
 
@@ -426,17 +419,6 @@ li.dropdown.mega-dropdown.nav-main-btn a.dropdown-toggle:hover,
         background-size: 105% 105%;
         background-repeat: no-repeat;
     }
-    #language-nav {
-        margin-top: -40px;
-        margin-left: 178px
-    }
-    #user-profile-nav {
-        margin-top: -40px;
-        margin-left: 100px
-    }
-    /*#small-size-logo {
-        left: 40px;
-    }*/
 }
 
 @media screen and (max-width:387px) {
@@ -449,13 +431,5 @@ li.dropdown.mega-dropdown.nav-main-btn a.dropdown-toggle:hover,
     }
     #small-size-logo {
         left: 20px;
-    }
-    #language-nav {
-        margin-top: -40px;
-        margin-left: 128px
-    }
-    #user-profile-nav {
-        margin-top: -40px;
-        margin-left: 70px
     }
 }
