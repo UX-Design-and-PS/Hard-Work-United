@@ -1,18 +1,28 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 body {
-    font-family: 'Open Sans', 'sans-serif';
-    background-color: lightgray;
+    font-family: 'Open Sans', 'Roboto Regular', 'Roboto Light', 'sans-serif';
+    background-color: black;
     background-size: contain;
     max-width: 80%;
     display: block;
     margin: 0 auto;
 }
 
-nav.navbar-inv{
+h2.name-main {
+    font-size: 38px;
+    text-shadow: 2px 1px #283A51;
+}
+
+h5.moto-main {
+    font-size: 17px;
+    text-shadow: 2px 1px #283A51;
+}
+
+nav.navbar-inv {
     position: absolute;
-    top: 0;
-    opacity: 0.9;
-    background-color: #283A51;
+    top: -5px;
+    opacity: 1;
+    background-color: #3D4E62;
     margin-left: -15px;
     min-width: 80%;
     max-width: 80%;
@@ -24,12 +34,12 @@ div ul li a {
     color: white;
 }
 
-div.search-btn{
-    background-color: #283A51;
+div.search-btn {
+    background-color: #3D4E62;
     color: white;
 }
 
-a.search:hover{
+a.search:hover {
     background-color: whitesmoke;
     color: #283A51;
 }
@@ -56,18 +66,18 @@ a.search:hover{
 
 .mega-dropdown-menu>li>ul>li>a {
     display: block;
-    color: darkblue;
+    color: #46A3B5;
     padding: 3px 5px;
 }
 
 .mega-dropdown-menu>li ul>li>a:hover, .mega-dropdown-menu>li ul>li>a:focus {
     text-decoration: none;
-    color: darkslateblue;
+    color: orangered;
 }
 
 .mega-dropdown-menu .dropdown-header {
     font-size: 18px;
-    color: black;
+    color: #1E4B6A;
     padding: 5px 60px 5px 5px;
     line-height: 30px;
 }
@@ -77,9 +87,36 @@ a.search:hover{
     -webkit-box-shadow: none;
 }
 
-.container {
-    opacity: none;
-    width: 100%;
+.dropdown-menu>li>a {
+    color: #46A3B5;
+    font-weight: bold;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    text-decoration: none;
+    color: orangered;
+}
+
+.navbar-nav>li>a {
+    height: 40px;
+    border-right: 1px solid black;
+}
+
+.navbar-nav>li>a.border-right {
+    height: 40px;
+    border-right: 0pt;
+}
+
+.input-group {
+    border: 2px solid #253B52;
+    width: 245px;
+    margin: 10px;
+    background: transparent;
+}
+
+.input-group button {
+    background-color: #253B52;
+    color: white;
 }
 
 
@@ -190,10 +227,10 @@ dd.legend-info {
 
 nav.row.nav-bottom {
     color: white;
-    background-color: #283A51;
+    background-color: #1E4B6A;
     min-height: 100px;
     max-width: 100%;
-    padding-left: 10%;
+    padding-left: 5%;
     padding-top: 2%;
 }
 
@@ -204,7 +241,6 @@ footer {
     min-height: 30px;
     max-width: 100%;
 }
-
 .footer-link {
     display: inline-block;
 }
@@ -216,7 +252,7 @@ footer {
 
 .a-nav-bottom:hover {
     text-decoration: none;
-    color: lightsteelblue
+    color: orangered;
 }
 
 .ul-footer {
@@ -227,11 +263,38 @@ footer {
     padding-right: 15px;
 }
 
-@media screen and (max-width: 550px) {
-    body {
-        color: pink
-    }
+li.dropdown a.dropdown-toggle.nav-main-btn, li.dropdown.mega-dropdown.nav-main-btn a.dropdown-toggle, #help-nav a, #user-profile-nav a.search, #search-nav a, #language-nav a {
+    color: white;
 }
+
+li.dropdown a.dropdown-toggle.nav-main-btn:hover, li.dropdown.mega-dropdown.nav-main-btn a.dropdown-toggle:hover, #user-profile-nav a.search:hover, #user-profile-nav a:hover, #search-nav a:hover, #help-nav a:hover, #user-profile-nav a img:hover, #language-nav a:hover {
+    color: #3D4E62;
+    font-weight: bolder;
+    background-color: white;
+}
+
+#small-size-logo {
+    position: absolute;
+    top: 8px;
+    left: 60px;
+    visibility: visible;
+}
+
+#small-size-logo {
+    visibility: hidden;
+}
+
+
+/*=========================================*/
+
+
+/* Media queries */
+
+
+/*=========================================*/
+
+
+
 
 /*start search button styles*/
 .dropdown.dropdown-lg .dropdown-menu {
@@ -304,88 +367,83 @@ footer {
     background-color: white;
 }
 
-#thread-heading{
-    padding-left: 18px; 
+.thread-heading {
     color: #000;
+    text-transform: uppercase;
 }
 
-.threads-hr-line{
+#thread-category {
+    text-decoration: underline;
+    color: #1B2634;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+#thread-exam {
+    text-decoration: underline;
+    color: #2f8eb8;
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 15px;
+}
+
+.answer-button {
+    float: left;
+}
+
+
+#category {
+     padding-left: 10px; 
+}
+
+#button-comment {
+    padding-top: 10px;
+}
+
+/*.threads-hr-line{
     height: 1px;
     background-color: #e1e5ea;
     max-width: 1000px;
     clear: both;
-}
+}*/
 
 .thread-group{
     padding-left: 20px;
 }
 
-.thread-text {
-    margin-left: 15px;
-    float: left;
+#primary-btn{
+    background-color: #d94818;
+    color: white; 
+    border-radius: 0px;
+    margin-left: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-transform: uppercase;
 }
 
-.author-position{
-    float: left;
+#primary-btn:hover{
+    background-color: #F86859;
+}
+
+#primary-btn2{
+    background-color: #283A51;
+    color: white; 
+    border-radius: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: 14px;
-    margin: 0px;
-    padding: 0px;
-    margin-left: 45px;
-    /*border: 1px solid black;*/
+    text-transform: uppercase;
+}
+#primary-btn2:hover{
+    background-color: #666;
 }
 
-.author-name{
-    font-size: 12px;
+.answers-points {
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
-.threads-position{
-    padding-left:50px; 
-}
-
-.thread-position{
-float: right;
-/*border: 1px solid black;*/
-}
-
-.thread-answer {
-    font-size: 20px;
-    padding-left: 55px;
-}
-
-.thread-tags {
-    margin-top: 80px;
-    margin-left: 30px;
-}
-
-.thread-font-size{
-    font-size: 12px;
-}
-
-.answer {
-    float: right;
-    font-size: 20px;
-    margin-right: 40px;
-}
-
-.thread-comment {
-    font-size: 17px;
-    margin-left: 60px;
-}
-
-.comment-text {
-    margin-left: 55px;
-}
-
-.subcomment {
-    margin-left: 150px;
-}
-
-.img {
-    float: left;
-    margin: 0px;
-    padding: 0px;
-    margin-left: 75px;
-    /*border: 1px solid black;*/
-}
 
 /*End Single forum post styles*/

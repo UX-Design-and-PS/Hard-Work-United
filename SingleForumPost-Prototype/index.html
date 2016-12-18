@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Софтуерна Aкадемия Телерик</title>
     <meta charset="UTF-8">
 
+    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
-    
     <main class="row">
-        <div class="container">
+        <div class="container col-xs-12">
             <div class="row" id="forum-threads">
-                <div class="row-sm-4">
+                <div class="row-xs-12">
                     <ul class="breadcrumb" id="forum-well-box">
                         <li><a href="#">Telerik Academy Forum</a></li>
                         <li><a href="#">C# Progrmming</a></li>
@@ -20,189 +22,221 @@
                         <li class="active">Задача с присвояване на стойности</li>
                     </ul>
                 </div>
-                <h1 id="thread-heading"><strong>Задача с присвояване на стойности</strong></h1>
+                
+                <div class="row" id="category">
+                <div class="col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <p class="thread-heading" id="thread-category"><strong>Категория "C# Fundamentals"</strong></p>
+                        </div>
+                    <div class="row">
+                        <div class="col-xs-9">
+                            <p class="thread-heading" id="thread-exam"><strong>Задача с присвояване на стойности</strong></p>
+                        </div>
+                        <div class="col-xs-3 answer-button">
+                            <button type="button" class="btn btn-lg btn-default" id="primary-btn">Отговор</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                
                 <hr class="threads-hr-line">
-                <div class="row thread-group">
-                    <!--<div>-->
-                        <div class="row thread-position">
-                            <div class="col-md-9 thread-text">
-                                <p>Здравейте, това е моят <a href="#">код</a> , когато го пробвам с всички стойности от примера всичко е наред, но в BGcoder ми дава 90/100, не е заради резултата, но може би има по-добър вариант за решението на задачата или пък аз трябва да добавя нещо, ако може някой да ми покаже/помогне. Благодаря!
-                                </p>
+                <div class="row">
+                    <div class="col-xs-9">
+                        <div class="row">
+                            <div class="col-xs-2 text-center">
+                                <p class="answers-points"><strong>100 </strong>Likes</p>
+                                <p class="answers-points"><strong>500 </strong>Views</p>
                             </div>
-                                <div class="col-md-2 author-position">
-                                    
-                                    <span class="thread-font-size">Публикувано от </span><br/><a href="#" class="author-name">Bogdan</a><span class="glyphicon glyphicon-education"
-                                    area-hidden="true"><span class="thread-font-size">,12.16.2016г.</span></span>
-                                    <img src="bogdan.jpg" class="img-circle alt="Cinque Terre" width="30" height="30">
+                            <div class="col-xs-10">
+                                <p class="question-text">Здравейте, това е моят код, когато го пробвам с всички стойности от примера всичко е наред,
+                                    но в BGcoder ми дава 90/100, не е заради резултата, но може би има по-добър вариант за
+                                    решението на задачата или пък аз трябва да добавя нещо, ако може някой да ми покаже/помогне.
+                                    Благодаря!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-3 text-center">
+                        <span class="thread-font-size"> Публикувано от </span>
+                        <img src="bogdan.jpg" class="img-circle" alt="Cinque Terre" width="30" height="30">
+                        <div id="user-position">
+                            <a href="#">NAYATA</a><span>,10.12.2016г. </span>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="threads-hr-line">
+
+                <div class="row">
+                    <div class="col-xs-9">
+                        <div class="row">
+                            <div class="col-xs-2 text-center">
+                                <img src="images/pin.PNG" width="40" height=40">
+                            </div>
+                            <div class="col-xs-10">
+                                <p class="">Смени weightOnMoon.ToString("#.000") с "{0:f3}", weightOnMoon вътре в Console.Out.WriteLine P.S.
+                                Когато използва #.000 и ако трябва да се отпечата 0.123 всъщност ще се отпечата .123, т.е.
+                                # маха излишните нули, за това явно един от тестовете отговора е 0,.... а твоя излиза без
+                                0 пред десетичната точка и дава грешка. Същото е и ако се използва 0.### и 0.000 и примерно
+                                числото е 1.250, при първия вариант ще се отпечата 1.25, т.е. ако е нула не я отпечатва само
+                                ако има цифра различна от 0, а при втория винаги ще отпечата 3 знака след десетичната точка,
+                                независимо дали има 0 или не - 1.250</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-3 text-center">
+                        <div class="row">
+                            <span class="thread-font-size"> Публикувано от </span>
+                            <img src="bogdan.jpg" class="img-circle" alt="Cinque Terre" width="30" height="30">
+                            <div id="user-position">
+                                <a href="#">HRISI_COOKIE</a><span>,10.12.2016г. </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <button type="button" class="btn btn-lg btn-default" id="primary-btn2">Коментар</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <hr class="threads-hr-line">
+
+                <div class="row">
+                    <div class="col-xs-9">
+                        <div class="row">
+                            <div class="col-xs-offset-4">
+                                <p class="">Благодаря за отговора, но така пак не ми изпечатва 0-та накрая, т.е. ако числото е 1.250 ми отпечатва
+                                само 1.25</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-3 text-center">
+                        <span class="thread-font-size"> Публикувано от </span>
+                        <img src="bogdan.jpg" class="img-circle" alt="Cinque Terre" width="30" height="30">
+                        <div id="user-position">
+                            <a href="#">RUMEN</a><span>,10.12.2016г. </span>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="threads-hr-line">
+
+                <div class="row">
+                    <div class="col-xs-9">
+                        <div class="row">
+                            <div class="col-xs-offset-4">
+                                <p class="">Пробвай с това Console.WriteLine("{0:F3}", weightOnMoon);</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-3 text-center">
+                        <span class="thread-font-size"> Публикувано от </span>
+                        <img src="bogdan.jpg" class="img-circle" alt="Cinque Terre" width="30" height="30">
+                        <div id="user-position">
+                            <a href="#">BONCHO</a><span>,10.12.2016г. </span>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="threads-hr-line">
+
+                <div class="row">
+                    <div class="col-xs-9">
+                        <div class="row">
+                            <div class="col-xs-offset-2">
+                                <p class="">Колеги, като ви гледам кода на решенията, имам чувството, че моето решение е доста просто и малоумно,
+                                макар и да ми дава 100/100 в бгкодера.
+                                <br/>Ето моето решение <a href="#">клик</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-3 text-center">
+                        <div class="row">
+                             <span class="thread-font-size"> Публикувано от </span>
+                                <img src="bogdan.jpg" class="img-circle" alt="Cinque Terre" width="30" height="30">
+                                <div id="user-position">
+                                    <a href="#">ABSEND</a><span>,10.12.2016г. </span>
                                 </div>
                         </div>
-                        <!--<hr class="threads-hr-line">-->
-                        <div class="row thread-tags">
-                            <div class="col-md-9">
-                                <button type="button" class="btn btn-xs">c#</button>
-                                <button type="button" class="btn btn-xs">#loops</button>
-                                <button type="button" class="btn btn-xs">exercise</button>
-                            </div>
-                            <div class="col-md-3">
-                                <a href="#" class="answer">Отговор</a>
-                            </div>
+                        <div class="row">
+                            <button type="button" class="btn btn-lg btn-default" id="primary-btn2">Коментар</button>
                         </div>
+                       
+                    </div>
+                </div>
+
+
+                <!--<div class="row thread-position">
+
+                    <hr class="threads-hr-line">
+                    
                         <hr class="threads-hr-line">
-
-                        <div class="row thread-position">
-                            <p class="thread-answer">Отговори</p>
-                            <hr class="threads-hr-line">
-                            <div class="row">
-                                <div class="col-md-8 comment-text">
-                                    <p>Смени weightOnMoon.ToString("#.000") с "{0:f3}", weightOnMoon вътре в Console.Out.WriteLine
-P.S.  Когато използва #.000 и ако трябва да се отпечата 0.123 всъщност ще се отпечата .123, т.е. # маха излишните нули, 
-за това явно един от тестовете отговора е 0,....  а твоя излиза без 0 пред десетичната точка и дава грешка. Същото е и ако се използва 0.### и 0.000 и примерно числото е 1.250, при първия вариант ще се отпечата 1.25, т.е. ако е нула не я отпечатва само ако има цифра различна от 0, а при втория винаги ще отпечата 3 знака след десетичната точка, независимо дали има 0 или не - 1.250</p>
-                                </div>
-                                <div class="col-md-2 author-position">
-                                    <div class="row">
-                                        <span class="thread-font-size">Публикувано от </span><br/><a href="#" class="author-name">Bogdan</a><span class="glyphicon glyphicon-education"
-                                        area-hidden="true"><span class="thread-font-size">,12.16.2016г.</span></span>
-                                        <img src="bogdan.jpg" class="img-circle alt="Cinque Terre" width="30" height="30">
-                                    </div> 
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            <a href="#" class="thread-comment">Коментар</a>
-                                        </div>
-                                    </div>  
-                                </div>
-                                <hr class="threads-hr-line">
-                            </div>
-                            <div class="row">
-                                <!--<div class="row">-->
-                                    <div class="col-md-7 subcomment">
-                                        <p>Благодаря за отговора, но така пак не ми изпечатва 0-та накрая, т.е. ако числото е 1.250 ми отпечатва само 1.25</p>
-                                    </div>
-                                   <div class="col-md-2 author-position">
-                                    <div class="row">
-                                        <span class="thread-font-size">Публикувано от </span><br/><a href="#" class="author-name">Bogdan</a><span class="glyphicon glyphicon-education"
-                                        area-hidden="true"><span class="thread-font-size">,12.16.2016г.</span></span>
-                                        <img src="bogdan.jpg" class="img-circle alt="Cinque Terre" width="30" height="30">
-                                    </div> 
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            <a href="#" class="thread-comment">Коментар</a>
-                                        </div>
-                                    </div>  
-                                </div>
-                                <!--</div> -->
-                                <hr class="threads-hr-line"> 
-                            </div>
-
-                                <div class="row">
-                                    <div class="col-md-7 subcomment">
-                                        <p>Пробвай с това Console.WriteLine("{0:F3}", weightOnMoon);</p>
-                                    </div>
-                                    <div class="col-md-2 author-position">
-                                    <div class="row">
-                                        <span class="thread-font-size">Публикувано от </span><br/><a href="#" class="author-name">Bogdan</a><span class="glyphicon glyphicon-education"
-                                        area-hidden="true"><span class="thread-font-size">,12.16.2016г.</span></span>
-                                        <img src="bogdan.jpg" class="img-circle alt="Cinque Terre" width="30" height="30">
-                                    </div> 
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            <a href="#" class="thread-comment">Коментар</a>
-                                        </div>
-                                    </div>  
-                                </div>
-                                </div>
-
-                                <hr class="threads-hr-line"> 
-                                <div class="row">
-                                    <div class="col-md-8 comment-text">
-                                        <p>Това е моят код: <a href="#">http://pastebin.com/06JFHu87</a></p>
-                                    </div>
-                                    <div class="col-md-2 author-position">
-                                    <div class="row">
-                                        <span class="thread-font-size">Публикувано от </span><br/><a href="#" class="author-name">Bogdan</a><span class="glyphicon glyphicon-education"
-                                        area-hidden="true"><span class="thread-font-size">,12.16.2016г.</span></span>
-                                        <img src="bogdan.jpg" class="img-circle alt="Cinque Terre" width="30" height="30">
-                                    </div> 
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            <a href="#" class="thread-comment">Коментар</a>
-                                        </div>
-                                    </div>  
-                                </div>
-                                </div>  
-
-                                <hr class="threads-hr-line"> 
-                                <div class="row">
-                                    <div class="col-md-8 comment-text">
-                                        <p>Колеги, като ви гледам кода на решенията, имам чувството, че моето решение е доста просто и малоумно, макар и да ми дава 100/100 в бгкодера.
-                                        <br/>Ето моето решение <a href="#">клик</a></p>
-                                    </div>
-                                    <div class="col-md-2 author-position">
-                                    <div class="row">
-                                        <span class="thread-font-size">Публикувано от </span><br/><a href="#" class="author-name">Bogdan</a><span class="glyphicon glyphicon-education"
-                                        area-hidden="true"><span class="thread-font-size">,12.16.2016г.</span></span>
-                                        <img src="bogdan.jpg" class="img-circle alt="Cinque Terre" width="30" height="30">
-                                    </div> 
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            <a href="#" class="thread-comment">Коментар</a>
-                                        </div>
-                                    </div>  
-                                </div>
-                                </div>  
-
-                                
-                        </div>
-                    <!--</div>-->
+                    </div>-->
+                    
+                <div class="row" id="paging">
+                    <div class="col-sm-8 col-sm-offset-3">
+                        <ul class="pagination">
+                            <li><a href="#">Предишна</a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">6</a></li>
+                            <li><a href="#">7</a></li>
+                            <li><a href="#">Следваща</a></li>
+                        </ul>
+                    </div>
+                </div>
                 </div>
             </div>
-        </div>
     </main>
 
     <nav class="row nav-bottom">
-            <div class="col-md-3">
-                <dl>
-                    <dt>СОФТУЕРНА АКАДЕМИЯ</dt>
-                    <dd><a class="a-nav-bottom" href="#">Сертификати</a></dd>
-                    <dd><a class="a-nav-bottom" href="#">Прием</a></dd>
-                    <dd><a class="a-nav-bottom" href="#">Кандидатствай</a></dd>
-                    <dd><a class="a-nav-bottom" href="#">Приемен изпит</a></dd>
-                    <dd><a class="a-nav-bottom" href="#">Често задавани въпроси</a></dd>
-                </dl>
-            </div>
-            <div class="col-md-3">
-                <dl>
-                    <dt>КУРСОВЕ</dt>
-                    <dd><a class="a-nav-bottom" href="#">Програмиране</a></dd>
-                    <dd><a class="a-nav-bottom" href="#">Уеб дизайн и UI технологии</a></dd>
-                    <dd><a class="a-nav-bottom" href="#">Личностни и бизнес умения</a></dd>
-                    <dd><a class="a-nav-bottom" href="#">Архивни курсове</a></dd>
-                    <dd><a class="a-nav-bottom" href="#">Външни курсове</a></dd>
-                </dl>
-            </div>
-            <div class="col-md-3 right-move">
-                <dl>
-                    <dt>УЧИЛИЩНА АКАДЕМИЯ</dt>
-                    <dd><a class="a-nav-bottom" href="#">Сезони</a></dd>
-                </dl>
-                <dl>
-                    <dt>СЕМИНАРИ</dt>
-                    <dd><a class="a-nav-bottom" href="#">Софтуерно инженерство</a></dd>
-                    <dd><a class="a-nav-bottom" href="#">Други</a></dd>
-                    <dd><a class="a-nav-bottom" href="#">Състезания</a></dd>
-                </dl>
-            </div>
-            <div class="col-md-3 right-move-down">
-                <dl>
-                    <dt>ЗА НАС</dt>
-                    <dd><a class="a-nav-bottom" href="#">Новини</a></dd>
-                    <dd><a class="a-nav-bottom" href="#">Лицензи</a></dd>
-                    <dd><a class="a-nav-bottom" href="#">Галерия</a></dd>
-                    <dd><a class="a-nav-bottom" href="#">Форум</a></dd>
-                    <dd><a class="a-nav-bottom" href="#">Студентска система</a></dd>
-                    <dd><a class="a-nav-bottom" href="#">Контакти</a></dd>
-                </dl>
-            </div>
-        </nav>
+        <div class="col-md-3">
+            <dl>
+                <dt>СОФТУЕРНА АКАДЕМИЯ</dt>
+                <dd><a class="a-nav-bottom" href="#">Сертификати</a></dd>
+                <dd><a class="a-nav-bottom" href="#">Прием</a></dd>
+                <dd><a class="a-nav-bottom" href="#">Кандидатствай</a></dd>
+                <dd><a class="a-nav-bottom" href="#">Приемен изпит</a></dd>
+                <dd><a class="a-nav-bottom" href="#">Често задавани въпроси</a></dd>
+            </dl>
+        </div>
+        <div class="col-md-3">
+            <dl>
+                <dt>КУРСОВЕ</dt>
+                <dd><a class="a-nav-bottom" href="#">Програмиране</a></dd>
+                <dd><a class="a-nav-bottom" href="#">Уеб дизайн и UI технологии</a></dd>
+                <dd><a class="a-nav-bottom" href="#">Личностни и бизнес умения</a></dd>
+                <dd><a class="a-nav-bottom" href="#">Архивни курсове</a></dd>
+                <dd><a class="a-nav-bottom" href="#">Външни курсове</a></dd>
+            </dl>
+        </div>
+        <div class="col-md-3 right-move">
+            <dl>
+                <dt>УЧИЛИЩНА АКАДЕМИЯ</dt>
+                <dd><a class="a-nav-bottom" href="#">Сезони</a></dd>
+            </dl>
+            <dl>
+                <dt>СЕМИНАРИ</dt>
+                <dd><a class="a-nav-bottom" href="#">Софтуерно инженерство</a></dd>
+                <dd><a class="a-nav-bottom" href="#">Други</a></dd>
+                <dd><a class="a-nav-bottom" href="#">Състезания</a></dd>
+            </dl>
+        </div>
+        <div class="col-md-3 right-move-down">
+            <dl>
+                <dt>ЗА НАС</dt>
+                <dd><a class="a-nav-bottom" href="#">Новини</a></dd>
+                <dd><a class="a-nav-bottom" href="#">Лицензи</a></dd>
+                <dd><a class="a-nav-bottom" href="#">Галерия</a></dd>
+                <dd><a class="a-nav-bottom" href="#">Форум</a></dd>
+                <dd><a class="a-nav-bottom" href="#">Студентска система</a></dd>
+                <dd><a class="a-nav-bottom" href="#">Контакти</a></dd>
+            </dl>
+        </div>
+    </nav>
     </div>
 
     <footer class="row">
@@ -210,31 +244,37 @@ P.S.  Когато използва #.000 и ако трябва да се от�
             <li class="footer-link"><a class="a-nav-bottom a-nav-bottom-footer" href="#">Академия</a>|&nbsp;&nbsp;&nbsp;</li>
             <li class="footer-link"><a class="a-nav-bottom a-nav-bottom-footer" href="#">Училищна Академия</a>|&nbsp;&nbsp;&nbsp;</li>
             <li class="footer-link"><a class="a-nav-bottom a-nav-bottom-footer" href="#">Детска Академия</a>|&nbsp;&nbsp;&nbsp;</li>
-            <li class="footer-link"><a class="a-nav-bottom a-nav-bottom-footer" href="#">Условия за ползване на сайта&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+            <li class="footer-link"><a class="a-nav-bottom a-nav-bottom-footer" href="#">Условия за ползване на сайта&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
             <li class="footer-link copyright">Всички права запазени &copy; Telerik Academy</li>
         </ul>
     </footer>
 
-    <nav class="navbar-inverse navbar-inv">
+    <nav class="navbar-inverse navbar-static-top navbar-inv">
         <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+            <button class="btn navbar-toggle" data-toggle="collapse" data-target=".js-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
         </div>
 
         <div class="collapse navbar-collapse js-navbar-collapse">
+            <!--<a id="small-size-logo" href="/#"><img src="./images/Telerik_Academy_Logo.png" alt="Telerik Academy" width="130px" height="30px"></a>  -->
             <ul class="nav navbar-nav">
                 <li class="nav-main-btn">
-                    <a href="#"><img src="./Telerik_Academy_Logo.png" alt="Telerik Academy" width="130px" height="30px" style="margin-top: -7px"></a>
+                    <a href="#"><img src="./images/Telerik_Academy_Logo.png" alt="Telerik Academy" width="130px" height="30px" style="margin-top: -7px"></a>
                 </li>
                 <li class="dropdown"><a href="#" class="dropdown-toggle nav-main-btn" data-toggle="dropdown">АКАДЕМИЯ</a>
                     <ul class="dropdown-menu">
+                        <li><a href="#">Софуерна академия</a></li>
                         <li><a href="#">Кандидатстване за академията</a></li>
                         <li><a href="#">Входен изпит</a></li>
                         <li><a href="#">Специалности</a></li>
+                        <li><a href="#">Дигитална академия</a></li>
+                        <li><a href="#">Училищна академия</a></li>
+                        <li><a href="#">Алго академия</a></li>
+                        <li><a href="#">Детска академия</a></li>
                     </ul>
                 </li>
                 <li class="dropdown mega-dropdown nav-main-btn">
@@ -365,10 +405,25 @@ P.S.  Когато използва #.000 и ако трябва да се от�
                         </li>
                     </ul>
                 </li>
-                <li id="help-nav" class="nav-main-btn"><a href="#">ПОМОЩ</a></li>
+                <li id="help-nav" class="dropdown nav-main-btn"><a href="/#">ПОМОЩ</a></li>
+                <li id="search-nav" class="dropdown nav-main-btn">
+                    <a href="#" class="search dropdown-toggle" data-toggle="dropdown">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Търсене..." name="srch-term" id="srch-term">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
                 <li id="user-profile-nav" class="dropdown nav-main-btn">
                     <a href="#" class="search dropdown-toggle" data-toggle="dropdown">
-                        <i class="glyphicon glyphicon-user search-btn"></i>
+                        <span class="glyphicon glyphicon-user"></span>
                     </a>
                     <ul class="dropdown-menu">
                         <li><a href="#">Вход</a></li>
@@ -376,253 +431,15 @@ P.S.  Когато използва #.000 и ако трябва да се от�
                         <li><a href="#">Вход с Facebook</a></li>
                     </ul>
                 </li>
-                <li id="search-nav" class="dropdown nav-main-btn">
-                    <a href="#" class="search dropdown-toggle" data-toggle="dropdown">
-                        <i class="glyphicon glyphicon-search search-btn"></i>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Търсене..." name="srch-term" id="srch-term">
-                                <div class="input-group-btn">
-                                    <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
-                                </div>
-                        </li>
-                    </ul>
-                </li>
-                <li id="language-nav" class="nav-main-btn"><a href="">БГ</a></li>
+                <li id="language-nav" class="dropdown nav-main-btn"><a href="" class="border-right">EN</a></li>
             </ul>
         </div>
-    <!-- /.nav-collapse -->
+        <!-- /.nav-collapse -->
     </nav>
 
 
-    <!--<nav class="row nav-bottom">
-        <div class="col-md-3">
-            <dl>
-                <dt>СОФТУЕРНА АКАДЕМИЯ</dt>
-                    <dd><a class="a-nav-bottom" href="#">Сертификати</a></dd>
-                    <dd><a class="a-nav-bottom" href="#">Прием</a></dd>
-                    <dd><a class="a-nav-bottom" href="#">Кандидатствай</a></dd>
-                    <dd><a class="a-nav-bottom" href="#">Приемен изпит</a></dd>
-                    <dd><a class="a-nav-bottom" href="#">Често задавани въпроси</a></dd>
-            </dl>
-        </div>
-        <div class="col-md-3">
-            <dl>
-                <dt>КУРСОВЕ</dt>
-                    <dd><a class="a-nav-bottom" href="#">Програмиране</a></dd>
-                    <dd><a class="a-nav-bottom" href="#">Уеб дизайн и UI технологии</a></dd>
-                    <dd><a class="a-nav-bottom" href="#">Личностни и бизнес умения</a></dd>
-                    <dd><a class="a-nav-bottom" href="#">Архивни курсове</a></dd>
-                    <dd><a class="a-nav-bottom" href="#">Външни курсове</a></dd>
-            </dl>
-        </div>
-        <div class="col-md-3">
-            <dl>
-                <dt>УЧИЛИЩНА АКАДЕМИЯ</dt>
-                    <dd><a class="a-nav-bottom" href="#">Сезони</a></dd>
-            </dl>
-            <dl>
-                <dt>СЕМИНАРИ</dt>
-                    <dd><a class="a-nav-bottom" href="#">Софтуерно инженерство</a></dd>
-                    <dd><a class="a-nav-bottom" href="#">Други</a></dd>
-                    <dd><a class="a-nav-bottom" href="#">Състезания</a></dd>
-            </dl>
-        </div>
-        <div class="col-md-3">
-            <dl>
-                <dt>ЗА НАС</dt>
-                    <dd><a class="a-nav-bottom" href="#">Новини</a></dd>
-                    <dd><a class="a-nav-bottom" href="#">Лицензи</a></dd>
-                    <dd><a class="a-nav-bottom" href="#">Галерия</a></dd>
-                    <dd><a class="a-nav-bottom" href="#">Форум</a></dd>
-                    <dd><a class="a-nav-bottom" href="#">Студентска система</a></dd>
-                    <dd><a class="a-nav-bottom" href="#">Контакти</a></dd>
-            </dl>
-        </div>
-    </nav>
-
-    <footer class="row">
-        <ul class="ul-footer">
-            <li class="footer-link"><a class="a-nav-bottom a-nav-bottom-footer" href="#">Академия&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
-            <li class="footer-link"><a class="a-nav-bottom a-nav-bottom-footer" href="#">Училищна Академия&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
-            <li class="footer-link"><a class="a-nav-bottom a-nav-bottom-footer" href="#">Детска Академия&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
-            <li class="footer-link"><a class="a-nav-bottom a-nav-bottom-footer" href="#">Условия за ползване на сайта&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-            <li class="footer-link copyright">Всички права запазени &copy; Telerik Academy</li>
-        </ul>
-    </footer>
-
-    <nav class="navbar-inv">
-        <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
-                <p class="sr-only">Toggle navigation</p>
-                    <p class="icon-bar"></p>
-                    <p class="icon-bar"></p>
-                    <p class="icon-bar"></p>
-            </button>
-        </div>
-
-        <div class="collapse navbar-collapse js-navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li class="nav-main-btn">
-                    <a href="#"><img src="./Telerik_Academy_Logo.png" alt="Telereik Academy" width="130px" height="30px" style="margin-top: -10px"></a>
-                </li>
-                <li class="dropdown"><a href="#" class="dropdown-toggle nav-main-btn" data-toggle="dropdown">АКАДЕМИЯ</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Кандидатстване за академията</a></li>
-                        <li><a href="#">Входен изпит</a></li>
-                        <li><a href="#">Специалности</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown mega-dropdown nav-main-btn">
-                    <a href="#" class="dropdown-toggle" dat-toggle="dropdown">КУРСОВЕ И ИНИЦИАТИВИ</a>
-                    <ul class="dropdown-menu mega-dropdown-menu">
-
-                        <li class="col-sm-3">
-                            <ul>
-                                <li class="dropdown-header">Основи на<br>програмирането</li>
-                                <li><a href="#">Основи на C#</a></li>
-                                <li><a href="#">C# за напреднали</a></li>
-                                <li><a href="#">ООП със C#</a></li>
-                                <li><a href="#">Основи на JavaScript</a></li>
-                                <li><a href="#">ООП с JavaScript</a></li>
-                            </ul>
-                        </li>
-                        
-                        <li class="col-sm-3">
-                            <ul>
-                                <li class="dropdown-header">Уеб Front-end</li>
-                                <li><a href="#">Основи на HTML</a></li>
-                                <li><a href="#">CSS стилизиране</a></li>
-                                <li><a href="#">JavaScript UI и DOM</a></li>
-                                <li><a href="#">UX дизайн</a></li>
-                                <li><a href="#">Основи Photoshop</a></li>
-                                <li><a href="#">Изграждане на Уеб Front-end</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="col-sm-3">
-                            <ul>
-                                <li class="dropdown-header">Програмизане за<br>напреднали</li>
-                                <li><a href="#">Компонентно тестване със C#</a></li>
-                                <li><a href="#">Качествен програмен код със C#</a></li>
-                                <li><a href="#">Структури от данни и алгоритми</a></li>
-                                <li><a href="#">Бази от данни и SQL</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="col-sm-3">
-                            <ul>
-                                <li class="dropdown-header">Уеб технологии</li>
-                                <li><a href="#">Приложения с JavaScript</a></li>
-                                <li><a href="#">Уеб услуги и облачни услуги</a></li>
-                                <li><a href="#">Уеб приложения с Node.js</a></li>
-                                <li><a href="#">SPA приложения с Angular 2</a></li>
-                                <li><a href="#">ASP.NET Web Forms</a></li>
-                                <li><a href="#">APS.NET MVC</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="col-sm-3">
-                            <ul>
-                                <li class="dropdown-header">Мобилни технологии</li>
-                                <li><a href="#">Приложения за Windows</a></li>
-                                <li><a href="#">Приложения за Android</a></li>
-                                <li><a href="#">Приложения за iOS</a></li>
-                                <li><a href="#">Разработчик на уеб приложения</a></li>
-                                <li><a href="#">Разработчик мобилни приложения</a></li>
-                                <li><a href="#">Мулти платформени мобилни приложения с NativeScript</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="col-sm-3">
-                            <ul>
-                                <li class="dropdown-header">Осигуряване на качеството</li>
-                                <li><a href="#">Осигуряване на качеството част 1</a></li>
-                                <li><a href="#">Осигуряване на качеството част 2</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-
-                <li class="dropdown mega-dropdown nav-main-btn">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">ФОРУМ</p></a>
-                <ul class="dropdown-menu mega-dropdown-menu">
-                    <li class="col-sm-3">
-                        <ul>
-                            <li class="dropdown-header">Начало</li>
-                            <li><a href="#"><strong>Софуерна академия</strong></a></li>
-                            <li><a href="#"><strong>Важни съобщения</strong></a></li>
-                            <li><a href="#"><strong>School academy</strong></a></li>
-                            <li><a href="#"><strong>Algo academy(C++)</strong></a></li>
-                            <li><a href="#"><strong>Kids academy</strong></a></li>
-                            <li><a href="#"><strong>Събития и конкурси</strong></a></li>
-                            <li><a href="#"><strong>Външни Курсове</strong></a></li>
-                        </ul>
-                    </li>
-
-                    <li class="col-sm-3">
-                        <ul>
-                            <li class="dropdown-header">C# Programing</li>
-                            <li><a href="#">C# Fundamentals</a></li>
-                            <li><a href="#">C# Advanced</a></li>
-                            <li><a href="#">C# OOP</a></li>
-                            <li><a href="#">Компонентно тестване със C#</a></li>
-                            <li><a href="#">Качествен програмен код</a></li>
-                            <li><a href="#">Шаблони за дизайн</a></li>
-                            <li><a href="#">Структури от данни и алгоритми</a></li>
-                        </ul>
-                    </li>
-                    <li class="col-sm-3">
-                        <ul>
-                            <li class="dropdown-header">Уеб дизайн<br>и UI технологи</li>
-                            <li><a href="#">HTML/CSS</a></li>
-                            <li><a href="#">Photoshop & UX дизайн</a></li>
-                            <li><a href="#">Slice and dice</a></li>
-                            <li><a href="#">JavaScript Fundamentals</a></li>
-                            <li><a href="#">JavaScript OOP</a></li>
-                            <li><a href="#">JavaScript UI & dom</a></li>
-                            <li><a href="#">JavaScript Applications</a></li>
-                            <li><a href="#">SPA Applications with Angular 2</a></li>
-                        </ul>
-                    </li>
-                    <li class="col-sm-3">
-                        <ul>
-                            <li class="dropdown-header">Web Development</li>
-                            <li><a href="#">Databases</a></li>
-                            <li><a href="#">Web services and cloud</a></li>
-                            <li><a href="#">SPA Applications</a></li>
-                            <li><a href="#">Applications with Node.js</a></li>
-                            <li><a href="#">ASP.NET Web Forms</a></li>
-                            <li><a href="#">ASP.NET MVC</a></li>
-                        </ul>
-                    </li>
-                    <li class="col-sm-3">
-                        <ul>
-
-                            <li class="dropdown-header">Mobile Development</li>
-                            <li><a href="#">Hybrid Mobile Apps</a></li>
-                            <li><a href="#">Mobile Apps with NativeScript</a></li>
-                            <li><a href="#">Android Mobile Apps</a></li>
-                            <li><a href="#">iOS Mobile Apps</a></li>
-                            <li><a href="#">Windows Mobile Apps</a></li>
-                            <li><a href="#">Front-end уеб разработчик</a></li>
-                        </ul>  
-                    </li>
-                </ul>
-            </li>
-            <li class="nav-main-btn"><a href="#">ПОМОЩ</a></li>
-            <li class="nav-main-btn"><a href="#">ПОТРЕБИТЕЛ</a></li>
-            <li class="nav-main-btn">
-                <a href="#" class="search">
-                    <i class="glyphicon glyphicon-search search-btn"></i>
-                </a>
-            </li>
-            <li class="nav-main-btn"><a href="">БГ</a></li>
-            </ul>
-        </div>-->
     <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
     <script src="main.js"></script>
 </body>
+
 </html>
