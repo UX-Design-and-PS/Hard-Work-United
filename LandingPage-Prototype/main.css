@@ -114,16 +114,32 @@ ul.dropdown-menu>li>a {
 
 .input-group {
     border: 2px solid #253B52;
-    width: 245px;
-    margin: 10px;
+    width: 92%;
+    margin: 40px;
     background: transparent;
+    padding: 5px;
+}
+
+.input-group input {
+    border: 1px solid transparent;
+    border-radius: initial;
+    margin-left: -1px;
+    height: 36px;
 }
 
 .input-group button {
-    background-color: #253B52;
+    background-color: #D94819;
     color: white;
+    border: 1px solid #D94819;
+    border-radius: initial;
 }
-
+.input-group button:hover {
+    background-color: white;
+    color: #D94819;
+    font-weight: bolder;
+    border: 1px solid #253B52;
+    border-radius: initial;
+}
 
 /*=========================================*/
 
