@@ -66,7 +66,7 @@ a.search:hover {
 
 .mega-dropdown-menu>li>ul>li>a {
     display: block;
-    color: darkblue;
+    color: #46A3B5;
     padding: 3px 5px;
 }
 
@@ -77,7 +77,7 @@ a.search:hover {
 
 .mega-dropdown-menu .dropdown-header {
     font-size: 18px;
-    color: black;
+    color: #1E4B6A;
     padding: 5px 60px 5px 5px;
     line-height: 30px;
 }
@@ -88,7 +88,7 @@ a.search:hover {
 }
 
 .dropdown-menu>li>a {
-    color: darkblue;
+    color: #46A3B5;
     font-weight: bold;
 }
 
@@ -104,7 +104,7 @@ a.search:hover {
 
 .navbar-nav>li>a.border-right {
     height: 40px;
-    border-right: 0px solid transparent;
+    border-right: 0pt;
 }
 
 .input-group {
@@ -172,7 +172,7 @@ main {
 }
 
 fieldset {
-    border: 2px solid grey;
+    border: 2px solid #c4bfc9;
     border-radius: 5px;
     min-height: 180px;
     text-align: center;
@@ -396,6 +396,10 @@ li.dropdown a.dropdown-toggle.nav-main-btn:hover, li.dropdown.mega-dropdown.nav-
         min-height: 260px;
         overflow: hidden;
         margin-left: -5%;
+    }
+    .mega-dropdown-menu .dropdown-header {
+        color: lightgrey;
+        margin-left: -22px;
     }
     #language-nav {
         margin-left: 0;
