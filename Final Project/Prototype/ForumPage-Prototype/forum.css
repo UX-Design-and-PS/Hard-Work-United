@@ -322,8 +322,11 @@ li.dropdown a.dropdown-toggle.nav-main-btn:hover, li.dropdown.mega-dropdown.nav-
     background-color: white;
 }
 #primary-btn{
+    text-decoration: none;
     background-color: #d94818;
-    color: white; 
+    color: white !important;
+    margin-left:15px;
+    border-radius:0;   
 }
 #primary-btn:hover{
     background-color: #F86859;
