@@ -394,7 +394,7 @@ padding: 0;
     margin-bottom:10px;  
     margin-top:10px;  
     float: right;
-    width: 15%;
+    width: 25%;
 }
 #text-editor-container{
     clear: both;
@@ -430,7 +430,9 @@ padding: 0;
     margin-left:5%; 
     margin-top:1%; 
     }
-    
+    #btn-radius button{
+    width: 17%;
+    }
 }
 
 
@@ -439,11 +441,16 @@ padding: 0;
     margin-top:70px;
     /*border: 1px solid black*/
 }
+#btn-radius button{
+    width: 19%;
+    }
+}
 @media screen and (max-width:767px) {
 #forum-threads{
     margin-top:41px;
     /*border: 1px solid black*/
 }
+ 
 }
 @media screen and (max-width:1100px) {
     nav.navbar-inv {
@@ -528,10 +535,16 @@ padding: 0;
     .thread-font-size{
     font-size: 10px;
     }
+    #btn-radius button{
+    width: 21%;
+    }
 }
 @media screen and (max-width:870px) {
     #forum-threads-heading{
         font-size: 30px;
+    }
+    #btn-radius button{
+    width: 23%;
     }
 
 }
@@ -539,6 +552,9 @@ padding: 0;
   
     #forum-threads-heading{
         font-size: 27px;
+    }
+    #btn-radius button{
+    width: 25%;
     }
 }
 @media screen and (max-width:801px) {
@@ -548,40 +564,64 @@ padding: 0;
     margin-bottom: 1%;
 
     }
+    #btn-radius button{
+    width: 27%;
+    }
 }
 @media screen and (max-width:750px) {
     #forum-threads-heading{
         font-size: 23px;
+    }
+    #btn-radius button{
+    width: 29%;
     }
 }
 @media screen and (max-width:670px) {
     #forum-threads-heading{
         font-size: 21px;
     }
+    #btn-radius button{
+    width: 31%;
+    }
 }
 @media screen and (max-width:580px) {
     #forum-threads-heading{
         font-size: 19px;
+    }
+    #btn-radius button{
+    width: 33%;
     }
 }
 @media screen and (max-width:505px) {
     #forum-threads-heading{
         font-size: 15px;
     }
+    #btn-radius button{
+    width: 35%;
+    }
 }
 @media screen and (max-width:481px) {
     #forum-threads-heading{
         font-size: 12px;
+    }
+    #btn-radius button{
+    width: 39%;
     }
 }
 @media screen and (max-width:390px) {
     #forum-threads-heading{
         font-size: 12px;
     }
+    #btn-radius button{
+    width: 43%;
+    }
 }
 @media screen and (max-width:349px) {
     #forum-threads-heading{
         font-size: 11px;
+    }
+    #btn-radius button{
+    width: 46%;
     }
 }
 @media screen and (max-width:680px) {
@@ -666,7 +706,6 @@ padding: 0;
     }
 }
 
-}
 @media screen and (max-width:965px) {
     #language-nav {
         margin-top: -40px;
