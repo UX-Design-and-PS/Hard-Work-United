@@ -63,7 +63,16 @@
                         <div id="user-position">
                             <a href="#">NAYATA</a><span>,10.12.2016г. </span>
                         </div>
+                    <div class="row">
+                        <p class="last-post">Последен пост: 06.12.2016г.</p>
                     </div>
+                    </div>
+                    
+                </div>
+                <div class="row"><span id="tags">
+                    <a href="#"><span class="label label-default">C#</span></a> 
+                    <a href="#"><span class="label label-default">#loop</span></a> 
+                    <a href="#"><span class="label label-default">excercise</span></a></span>
                 </div>
 
                 <hr class="threads-hr-line">
@@ -71,8 +80,8 @@
                 <div class="row">
                     <div class="col-xs-9">
                         <div class="row">
-                            <div class="col-xs-2 text-center">
-                                <img src="images/pin.PNG" width="40" height=40">
+                            <div class="col-xs-2" id="pin">
+                                <img src="images/pin.PNG" width="45" height=45">
                             </div>
                             <div class="col-xs-10">
                                 <p class="">Смени weightOnMoon.ToString("#.000") с "{0:f3}", weightOnMoon вътре в Console.Out.WriteLine P.S.
@@ -92,6 +101,9 @@
                             <div id="user-position">
                                 <a href="#">HRISI_COOKIE</a><span>,10.12.2016г. </span>
                             </div>
+                        </div>
+                        <div class="row">
+                            <p class="last-post">Последен пост: 06.12.2016г.</p>
                         </div>
                         <div class="row">
                             <button type="button" class="btn btn-lg btn-default" id="primary-btn2">Коментар</button>
@@ -116,7 +128,11 @@
                         <div id="user-position">
                             <a href="#">RUMEN</a><span>,10.12.2016г. </span>
                         </div>
+                        <div class="row">
+                        <p class="last-post">Последен пост: 06.12.2016г.</p>
                     </div>
+                    </div>
+                    
                 </div>
 
                 <hr class="threads-hr-line">
@@ -135,7 +151,11 @@
                         <div id="user-position">
                             <a href="#">BONCHO</a><span>,10.12.2016г. </span>
                         </div>
+                        <div class="row">
+                        <p class="last-post">Последен пост: 06.12.2016г.</p>
                     </div>
+                    </div>
+                    
                 </div>
 
                 <hr class="threads-hr-line">
@@ -159,22 +179,17 @@
                                 </div>
                         </div>
                         <div class="row">
+                            <p class="last-post">Последен пост: 06.12.2016г.</p>
+                        </div>
+                        <div class="row">
                             <button type="button" class="btn btn-lg btn-default" id="primary-btn2">Коментар</button>
                         </div>
                        
                     </div>
                 </div>
-
-
-                <!--<div class="row thread-position">
-
-                    <hr class="threads-hr-line">
-                    
-                        <hr class="threads-hr-line">
-                    </div>-->
                     
                 <div class="row" id="paging">
-                    <div class="col-sm-8 col-sm-offset-3">
+                    <div class="col-sm-8 col-sm-offset-4">
                         <ul class="pagination">
                             <li><a href="#">Предишна</a></li>
                             <li><a href="#">1</a></li>
@@ -182,8 +197,6 @@
                             <li><a href="#">3</a></li>
                             <li><a href="#">4</a></li>
                             <li><a href="#">5</a></li>
-                            <li><a href="#">6</a></li>
-                            <li><a href="#">7</a></li>
                             <li><a href="#">Следваща</a></li>
                         </ul>
                     </div>
@@ -432,8 +445,13 @@
     <!-- /.nav-collapse -->
     </nav>
 
+    <!-- Templates -->
+    <script id="test-temp" type="handlebars-template"></script>
 
     <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+    
     <script src="main.js"></script>
 </body>
 
