@@ -1,3 +1,11 @@
+'use strict';
+
+function loadTemplate(selector) {
+    let postTemplateHTML = $(selector).html();
+    let compiledTemplate = Handlebars.compile(postTemplateHTML);
+    return $('#content-main').html(compiledTemplate());
+}
+
 $(document).ready(function () {
     $('.dropdown').hover(
         function () {

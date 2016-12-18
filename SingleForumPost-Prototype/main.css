@@ -502,12 +502,13 @@ li.dropdown a.dropdown-toggle.nav-main-btn:hover, li.dropdown.mega-dropdown.nav-
 }
 
 #forum-well-box {
-    vertical-align: middle;    
+    vertical-align: top;    
     text-decoration: none;
-    padding-top: 7px;
+    padding-top: 0px;
     padding-left: 10px;
     font-size: 12px;
     background-color: white;
+    text-transform: uppercase;
 }
 
 .thread-heading {
@@ -543,12 +544,12 @@ li.dropdown a.dropdown-toggle.nav-main-btn:hover, li.dropdown.mega-dropdown.nav-
     padding-top: 10px;
 }
 
-/*.threads-hr-line{
+.threads-hr-line{
     height: 1px;
-    background-color: #e1e5ea;
-    max-width: 1000px;
+    background-color: #283A51;
+    max-width: 1000%;
     clear: both;
-}*/
+}
 
 .thread-group{
     padding-left: 20px;
@@ -587,6 +588,5 @@ li.dropdown a.dropdown-toggle.nav-main-btn:hover, li.dropdown.mega-dropdown.nav-
     text-transform: uppercase;
     font-weight: bold;
 }
-
 
 /*End Single forum post styles*/
