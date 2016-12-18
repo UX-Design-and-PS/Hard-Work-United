@@ -17,6 +17,4 @@
 
 ##<a href="https://github.com/UX-Design-and-PS/Hard-work-unaited/blob/master/Course-project-assignment.md">Project Requirements</a>  
 
-##Project Description
-
-###ProjectName
+##GitHub: <a href="https://github.com/UX-Design-and-PS/Hard-work-unaited">Telerik Academy Forum Re-design</a>
