@@ -1,0 +1,391 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body {
+    font-family: 'Open Sans', 'sans-serif';
+    background-color: lightgray;
+    background-size: contain;
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+nav.navbar-inv{
+    position: absolute;
+    top: 0;
+    opacity: 0.9;
+    background-color: #283A51;
+    margin-left: -15px;
+    min-width: 80%;
+    max-width: 80%;
+    max-height: 70px;
+    padding-left: 4%
+}
+
+div ul li a {
+    color: white;
+}
+
+div.search-btn{
+    background-color: #283A51;
+    color: white;
+}
+
+a.search:hover{
+    background-color: whitesmoke;
+    color: #283A51;
+}
+
+.mega-dropdown {
+    position: static !important;
+}
+
+.mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.mega-dropdown-menu>li>ul {
+    padding: 0;
+    margin: 0;
+}
+
+.mega-dropdown-menu>li>ul>li {
+    list-style: none;
+}
+
+.mega-dropdown-menu>li>ul>li>a {
+    display: block;
+    color: darkblue;
+    padding: 3px 5px;
+}
+
+.mega-dropdown-menu>li ul>li>a:hover, .mega-dropdown-menu>li ul>li>a:focus {
+    text-decoration: none;
+    color: darkslateblue;
+}
+
+.mega-dropdown-menu .dropdown-header {
+    font-size: 18px;
+    color: black;
+    padding: 5px 60px 5px 5px;
+    line-height: 30px;
+}
+
+.dropdown-menu {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.container {
+    opacity: none;
+    width: 100%;
+}
+
+
+/*=========================================*/
+
+
+/*  Landing Page  */
+
+
+/*=========================================*/
+
+header {
+    background-image: url("cosmos.jpg");
+    background-size: 100%, auto, contain;
+    min-height: 420px;
+}
+
+#apply-btn {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #D94819;
+    background-color: #D94819;
+    color: white;
+    min-width: 270px;
+    min-height: 45px;
+    margin-top: 50px;
+    font-size: 18px
+}
+
+div.info-text {
+    color: white;
+    text-align: center;
+    font-size: 18px
+}
+
+main {
+    background-color: white;
+    min-height: 150px;
+    max-height: 1000px;
+    max-width: 100%;
+}
+
+.fieldset-container {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+fieldset {
+    border: 2px solid grey;
+    border-radius: 5px;
+    min-height: 180px;
+    text-align: center;
+}
+
+legend {
+    text-decoration: none;
+    border: 0;
+    padding-top: 1%;
+}
+
+dl.legend-info{
+    margin-top: -7%;
+}
+
+dd.legend-info {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 1%;
+}
+
+#front-end {
+    color: #3EC144;
+    max-width: 130px;
+    font-weight: bold;
+}
+
+#web {
+    color: #3E9EFF;
+    max-width: 60px;
+    font-weight: bold;
+}
+
+#mobile {
+    color: #D94819;
+    max-width: 90px;
+    font-weight: bold;
+}
+
+#front-end-btn {
+    background-color: #3EC144;
+    border: 1px solid #3EC144;
+    color: white;
+}
+
+#web-btn {
+    background-color: #3E9EFF;
+    border: 1px solid #3E9EFF;
+    color: white;
+}
+
+#mobile-btn {
+    background-color: #D94819;
+    border: 1px solid #D94819;
+    color: white;
+}
+
+nav.row.nav-bottom {
+    color: white;
+    background-color: #283A51;
+    min-height: 100px;
+    max-width: 100%;
+    padding-left: 10%;
+    padding-top: 2%;
+}
+
+footer {
+    background-color: #1B2634;
+    color: white;
+    text-align: center;
+    min-height: 30px;
+    max-width: 100%;
+}
+
+.footer-link {
+    display: inline-block;
+}
+
+.a-nav-bottom {
+    color: white;
+    font-size: 12px;
+}
+
+.a-nav-bottom:hover {
+    text-decoration: none;
+    color: lightsteelblue
+}
+
+.ul-footer {
+    padding-top: 1%;
+}
+
+.a-nav-bottom-footer {
+    padding-right: 15px;
+}
+
+@media screen and (max-width: 550px) {
+    body {
+        color: pink
+    }
+}
+
+/*start search button styles*/
+.dropdown.dropdown-lg .dropdown-menu {
+    margin-top: -1px;
+    padding: 6px 20px;
+}
+.input-group-btn .btn-group {
+    display: flex !important;
+}
+.btn-group .btn {
+    border-radius: 0;
+    margin-left: -1px;
+}
+.btn-group .btn:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.btn-group .form-horizontal .btn[type="submit"] {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+.form-group .form-control:last-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+    #adv-search {
+        width: 500px;
+        margin: 0 auto;
+    }
+    .dropdown.dropdown-lg {
+        position: static !important;
+    }
+    .dropdown.dropdown-lg .dropdown-menu {
+        min-width: 500px;
+    }
+}
+#search-btn-askQ{
+    float: right;
+}
+/*end search button styles*/
+
+
+
+/* Start Single forum post styles*/
+
+#forum-threads{
+    margin-top:61px;
+    /*border: 1px solid black*/
+}
+#forum-threads a{
+    color: #2f8eb8
+}
+#forum-threads a:hover{
+    color: #ff6358;
+    text-decoration: none;
+}
+
+#forum-well-box {
+    vertical-align: middle;    
+    text-decoration: none;
+    padding-top: 7px;
+    padding-left: 10px;
+    font-size: 12px;
+    background-color: white;
+}
+
+#thread-heading{
+    padding-left: 18px; 
+    color: #000;
+}
+
+.threads-hr-line{
+    height: 1px;
+    background-color: #e1e5ea;
+    max-width: 1000px;
+    clear: both;
+}
+
+.thread-group{
+    padding-left: 20px;
+}
+
+.thread-text {
+    margin-left: 15px;
+    float: left;
+}
+
+.author-position{
+    float: left;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 45px;
+    /*border: 1px solid black;*/
+}
+
+.author-name{
+    font-size: 12px;
+}
+
+.threads-position{
+    padding-left:50px; 
+}
+
+.thread-position{
+float: right;
+/*border: 1px solid black;*/
+}
+
+.thread-answer {
+    font-size: 20px;
+    padding-left: 55px;
+}
+
+.thread-tags {
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.thread-font-size{
+    font-size: 12px;
+}
+
+.answer {
+    float: right;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+.thread-comment {
+    font-size: 17px;
+    margin-left: 60px;
+}
+
+.comment-text {
+    margin-left: 55px;
+}
+
+.subcomment {
+    margin-left: 150px;
+}
+
+.img {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 75px;
+    /*border: 1px solid black;*/
+}
+
+/*End Single forum post styles*/
