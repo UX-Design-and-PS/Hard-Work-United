@@ -13,4 +13,5 @@
 ####7. In threads forum page more information about the roles of the participants student or teacher
 ####8. Friendlier to non-native speakers 
 ####9. Better forum navigation
-####10. New forum functionality -watched threads  
+####10. New forum functionality -watched threads
+####11. Much better live text editor in create new thread(basicly the same look but more functionality plus emojos)
