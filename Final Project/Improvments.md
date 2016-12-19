@@ -31,3 +31,8 @@
   -	Easier way to add new thread
   -	Better editor 
 10. __New forum functionality - watched threads__
+
+
+###GitHub: <a href="https://github.com/UX-Design-and-PS/Hard-work-unaited">Telerik Academy Forum Re-design</a>
+
+###Presentation: <a href="https://prezi.com/r_2g0pqparx8/ux-design-and-photoshop-team/">Telerik Academy Forum Presentation</a>
