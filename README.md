@@ -18,3 +18,6 @@
 ##<a href="https://github.com/UX-Design-and-PS/Hard-work-unaited/blob/master/Course-project-assignment.md">Project Requirements</a>  
 
 ##GitHub: <a href="https://github.com/UX-Design-and-PS/Hard-work-unaited">Telerik Academy Forum Re-design</a>
+
+##Presentation: <a href="https://prezi.com/r_2g0pqparx8/ux-design-and-photoshop-team/">Telerik Academy Forum Presentation</a>
+
