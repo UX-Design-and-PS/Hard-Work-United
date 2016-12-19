@@ -333,7 +333,7 @@ img.notification-box {
     padding: 2%;
 }
 
-.massage-container{
+.massage-container {
     margin-bottom: 20px;
 }
 
@@ -358,8 +358,8 @@ img.notification-box {
 #msg-num {
     position: absolute;
     width: 12px;
-    top: 5%;
-    left: 55%;
+    top: 4%;
+    left: 56%;
     color: white;
     background-color: #D94819;
     border: 1px solid#D94819;
@@ -487,6 +487,10 @@ img.notification-box {
     .mega-dropdown-menu .dropdown-header {
         color: lightgrey;
         margin-left: -22px;
+    }
+    #msg-num {
+        top: -3px;
+        left: 32px;
     }
     .choose {
         margin-left: 30%;

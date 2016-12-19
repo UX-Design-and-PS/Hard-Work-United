@@ -26,11 +26,11 @@ $(document).ready(function () {
     $('#search-nav').hover(
         function () {
             $('#search-nav a img').attr('src', "./images/search_hovered.PNG");
-            $('#search-nav a').css( 'background-color', 'white');
+            $('#search-nav a').css('background-color', 'white');
         },
         function () {
             $('#search-nav a img').attr('src', "./images/search.PNG");
-            $('#search-nav a').css( 'background-color', '#3D4E62');
+            $('#search-nav a').css('background-color', '#3D4E62');
         }
     );
 
@@ -38,29 +38,29 @@ $(document).ready(function () {
     $('#search-nav ul').hover(
         function () {
             $('#search-nav a img').attr('src', './images/search_hovered.PNG');
-            $('#search-nav a').css( 'background-color', 'white');
+            $('#search-nav a').css('background-color', 'white');
         },
         function () {
             $('#search-nav a img').attr('src', './images/search.PNG');
-            $('#search-nav a').css( 'background-color', '#3D4E62');
+            $('#search-nav a').css('background-color', '#3D4E62');
         }
     );
     $('#search-nav ul li div').hover(
         function () {
             $('#search-nav a img').attr('src', './images/search_hovered.PNG');
-            $('#search-nav a').css( 'background-color', 'white');
+            $('#search-nav a').css('background-color', 'white');
         }
     );
     $('#search-nav ul li div input').hover(
         function () {
             $('#search-nav a img').attr('src', './images/search_hovered.PNG');
-            $('#search-nav a').css( 'background-color', 'white');
+            $('#search-nav a').css('background-color', 'white');
         }
     );
     $('#search-nav ul li div div').hover(
         function () {
             $('#search-nav a img').attr('src', './images/search_hovered.PNG');
-            $('#search-nav a').css( 'background-color', 'white');
+            $('#search-nav a').css('background-color', 'white');
         }
     );
 
@@ -78,33 +78,33 @@ $(document).ready(function () {
     $('#user-profile-nav').hover(
         function () {
             $('#user-profile-nav a img').attr('src', "./images/profile_hovered.PNG");
-            $('#user-profile-nav a').css( 'background-color', 'white');
+            $('#user-profile-nav a').css('background-color', 'white');
         },
         function () {
             $('#user-profile-nav a img').attr('src', "./images/profile.PNG");
-            $('#user-profile-nav a').css( 'background-color', '#3D4E62');
+            $('#user-profile-nav a').css('background-color', '#3D4E62');
         }
     );
     $('#user-profile-nav').mouseover(
         function () {
-            $('#user-profile-nav ul.user-hover li a').css( 'background-color', 'white');
+            $('#user-profile-nav ul.user-hover li a').css('background-color', 'white');
         }
     );
     //=====
     $('#user-profile-nav ul').hover(
         function () {
             $('#user-profile-nav a img').attr('src', './images/profile_hovered.PNG');
-            $('#user-profile-nav a').css( 'background-color', 'white');
+            $('#user-profile-nav a').css('background-color', 'white');
         },
         function () {
             $('#user-profile-nav a img').attr('src', './images/profile.PNG');
-            $('#user-profile-nav a').css( 'background-color', '#3D4E62');
+            $('#user-profile-nav a').css('background-color', '#3D4E62');
         }
     );
     $('#user-profile-nav ul li a').hover(
         function () {
             $('#user-profile-nav a img').attr('src', './images/profile_hovered.PNG');
-            $('#user-profile-nav a').css( 'background-color', 'white');
+            $('#user-profile-nav a').css('background-color', 'white');
         }
     );
 
@@ -112,30 +112,76 @@ $(document).ready(function () {
     $('#user-profile-massages-nav').hover(
         function () {
             $('#user-profile-massages-nav a img').attr('src', "./images/notifications_hovered.PNG");
-            $('#user-profile-massages-nav a').css( 'background-color', 'white');
+            $('#user-profile-massages-nav a').css('background-color', 'white');
         },
         function () {
             $('#user-profile-massages-nav a img').attr('src', "./images/notifications.PNG");
-            $('#user-profile-massages-nav a').css( 'background-color', '#3D4E62');
+            $('#user-profile-massages-nav a').css('background-color', '#3D4E62');
         }
     );
     //=====
     $('#user-profile-massages-nav ul').hover(
         function () {
             $('#user-profile-massages-nav a img').attr('src', './images/notifications_hovered.PNG');
-            $('#user-profile-massages-nav a').css( 'background-color', 'white');
+            $('#user-profile-massages-nav a').css('background-color', 'white');
         },
         function () {
             $('#user-profile-massages-nav a img').attr('src', './images/notifications.PNG');
-            $('#user-profile-massages-nav a').css( 'background-color', '#3D4E62');
-        }
-    );
-    
-     $('#user-profile-massages-nav ul li div').hover(
-        function () {
-            $('#user-profile-massages-nav').attr('src', './images/notifications_hovered.PNG');
-            $('#user-profile-massages-nav a').css( 'background-color', 'white');
+            $('#user-profile-massages-nav a').css('background-color', '#3D4E62');
         }
     );
 
+    $('#user-profile-massages-nav ul li div').hover(
+        function () {
+            $('#user-profile-massages-nav').attr('src', './images/notifications_hovered.PNG');
+            $('#user-profile-massages-nav a').css('background-color', 'white');
+        }
+    );
+
+    // mega-dropdown events
+
+    $('.mdd-first').hover(
+        function () {
+            $('.mdd-link-first')
+                .css('background-color', 'white')
+                .css('color', '#3D4E62')
+                .css('font-weight', 'bolder');
+        },
+        function () {
+            $('.mdd-link-first')
+                .css('background-color', '#3D4E62')
+                .css('color', 'white')
+                .css('font-weight', 'normal');
+        }
+    );
+
+    $('.mdd-second').hover(
+        function () {
+            $('.mdd-link-second')
+                .css('background-color', 'white')
+                .css('color', '#3D4E62')
+                .css('font-weight', 'bolder');
+        },
+        function () {
+            $('.mdd-link-second')
+                .css('background-color', '#3D4E62')
+                .css('color', 'white')
+                .css('font-weight', 'normal');
+        }
+    );
+
+    $('.mdd-third').hover(
+        function () {
+            $('.mdd-link-third')
+                .css('background-color', 'white')
+                .css('color', '#3D4E62')
+                .css('font-weight', 'bolder');
+        },
+        function () {
+            $('.mdd-link-third')
+                .css('background-color', '#3D4E62')
+                .css('color', 'white')
+                .css('font-weight', 'normal');
+        }
+    );
 });
