@@ -22,70 +22,120 @@ $(document).ready(function () {
         event.stopPropagation();
     });
 
-    // user icon events
-    $('#user-profile-nav').hover(
-        function () {
-            $('#user-profile-nav a img').attr('src', "./images/profile_hovered.PNG");
-        },
-        function () {
-            $('#user-profile-nav a img').attr('src', "./images/profile.PNG");
-        }
-    );
-    $('#user-profile-nav a img').hover(
-        function () {
-            $('#user-profile-nav a img').attr('src', "./images/profile_hovered.PNG");
-        },
-        function () {
-            $('#user-profile-nav a img').attr('src', "./images/profile.PNG");
-        }
-    );
-    
-    $('#user-profile-nav').mouseover(
-        function () {
-            $('#user-profile-nav a img').attr('src', "./images/profile_hovered.PNG");
-        }
-    );
-    $('#user-profile-nav a img').mouseout(
-        function () {
-            $('#user-profile-nav a img').attr('src', "./images/profile.PNG");
-        }
-    );
-
     // search icon events
     $('#search-nav').hover(
         function () {
             $('#search-nav a img').attr('src', "./images/search_hovered.PNG");
+            $('#search-nav a').css( 'background-color', 'white');
         },
         function () {
             $('#search-nav a img').attr('src', "./images/search.PNG");
+            $('#search-nav a').css( 'background-color', '#3D4E62');
         }
     );
-    $('#search-nav a img').hover(
+
+    //=====
+    $('#search-nav ul').hover(
         function () {
-            $('#search-nav a img').attr('src', "./images/search_hovered.PNG");
+            $('#search-nav a img').attr('src', './images/search_hovered.PNG');
+            $('#search-nav a').css( 'background-color', 'white');
         },
         function () {
-            $('#search-nav a img').attr('src', "./images/search.PNG");
+            $('#search-nav a img').attr('src', './images/search.PNG');
+            $('#search-nav a').css( 'background-color', '#3D4E62');
+        }
+    );
+    $('#search-nav ul li div').hover(
+        function () {
+            $('#search-nav a img').attr('src', './images/search_hovered.PNG');
+            $('#search-nav a').css( 'background-color', 'white');
+        }
+    );
+    $('#search-nav ul li div input').hover(
+        function () {
+            $('#search-nav a img').attr('src', './images/search_hovered.PNG');
+            $('#search-nav a').css( 'background-color', 'white');
+        }
+    );
+    $('#search-nav ul li div div').hover(
+        function () {
+            $('#search-nav a img').attr('src', './images/search_hovered.PNG');
+            $('#search-nav a').css( 'background-color', 'white');
         }
     );
 
-    $('#search-nav').mouseout(
-        function () {
-            $('#search-nav a img').attr('src', "./images/search.PNG");
-        }
-    );
-    $('#search-nav a img').mouseout(
-        function () {
-            $('#search-nav a img').attr('src', "./images/search_hovered.PNG");
-        }
-    );
-
+    // search box events
     $('#search-box-btn').hover(
         function () {
-            $('#search-box-btn img').attr('src', "./images/search_hovered.PNG");
+            $('#search-box-btn img').attr('src', './images/search_hovered.PNG');
         },
         function () {
-            $('#search-box-btn img').attr('src', "./images/search.PNG");
+            $('#search-box-btn img').attr('src', './images/search.PNG');
         }
     );
+
+    // user icon events
+    $('#user-profile-nav').hover(
+        function () {
+            $('#user-profile-nav a img').attr('src', "./images/profile_hovered.PNG");
+            $('#user-profile-nav a').css( 'background-color', 'white');
+        },
+        function () {
+            $('#user-profile-nav a img').attr('src', "./images/profile.PNG");
+            $('#user-profile-nav a').css( 'background-color', '#3D4E62');
+        }
+    );
+    $('#user-profile-nav').mouseover(
+        function () {
+            $('#user-profile-nav ul.user-hover li a').css( 'background-color', 'white');
+        }
+    );
+    //=====
+    $('#user-profile-nav ul').hover(
+        function () {
+            $('#user-profile-nav a img').attr('src', './images/profile_hovered.PNG');
+            $('#user-profile-nav a').css( 'background-color', 'white');
+        },
+        function () {
+            $('#user-profile-nav a img').attr('src', './images/profile.PNG');
+            $('#user-profile-nav a').css( 'background-color', '#3D4E62');
+        }
+    );
+    $('#user-profile-nav ul li a').hover(
+        function () {
+            $('#user-profile-nav a img').attr('src', './images/profile_hovered.PNG');
+            $('#user-profile-nav a').css( 'background-color', 'white');
+        }
+    );
+
+    // massage icon events
+    $('#user-profile-massages-nav').hover(
+        function () {
+            $('#user-profile-massages-nav a img').attr('src', "./images/notifications_hovered.PNG");
+            $('#user-profile-massages-nav a').css( 'background-color', 'white');
+        },
+        function () {
+            $('#user-profile-massages-nav a img').attr('src', "./images/notifications.PNG");
+            $('#user-profile-massages-nav a').css( 'background-color', '#3D4E62');
+        }
+    );
+    //=====
+    $('#user-profile-massages-nav ul').hover(
+        function () {
+            $('#user-profile-massages-nav a img').attr('src', './images/notifications_hovered.PNG');
+            $('#user-profile-massages-nav a').css( 'background-color', 'white');
+        },
+        function () {
+            $('#user-profile-massages-nav a img').attr('src', './images/notifications.PNG');
+            $('#user-profile-massages-nav a').css( 'background-color', '#3D4E62');
+        }
+    );
+    
+     $('#user-profile-massages-nav ul li div').hover(
+        function () {
+            $('#user-profile-massages-nav').attr('src', './images/notifications_hovered.PNG');
+            $('#user-profile-massages-nav a').css( 'background-color', 'white');
+        }
+    );
+
 });
