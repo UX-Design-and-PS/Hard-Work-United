@@ -355,6 +355,18 @@ img.notification-box {
     border: 1px solid #3D4E62;
 }
 
+#msg-num {
+    position: absolute;
+    width: 12px;
+    top: 5%;
+    left: 55%;
+    color: white;
+    background-color: #D94819;
+    border: 1px solid#D94819;
+    border-radius: 5px;
+    text-align: center;
+}
+
 
 /*=========================================*/
 
