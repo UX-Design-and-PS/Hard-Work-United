@@ -5,7 +5,7 @@
 
 <h1 align="center">UX Design and Photoshop Team "Hard Work United"</h1>
 
-###:mortar_board:Team Members
+### :mortar_board:Team Members
 | Name              | Academy Username      	|
 |-------------------|-------------------|
 |                   | :white_check_mark:|
@@ -15,9 +15,9 @@
 |Niya Keranova|__Nayata__       	|	
 |Atanas Papucharov|__Absend__       	|	
 
-##<a href="https://github.com/UX-Design-and-PS/Hard-work-unaited/blob/master/Course-project-assignment.md">Project Requirements</a>  
+## <a href="https://github.com/UX-Design-and-PS/Hard-work-unaited/blob/master/Course-project-assignment.md">Project Requirements</a>  
 
-##GitHub: <a href="https://github.com/UX-Design-and-PS/Hard-work-unaited">Telerik Academy Forum Re-design</a>
+## GitHub: <a href="https://github.com/UX-Design-and-PS/Hard-work-unaited">Telerik Academy Forum Re-design</a>
 
-##Presentation: <a href="https://prezi.com/r_2g0pqparx8/ux-design-and-photoshop-team/">Telerik Academy Forum Presentation</a>
+## Presentation: <a href="https://prezi.com/r_2g0pqparx8/ux-design-and-photoshop-team/">Telerik Academy Forum Presentation</a>
 
